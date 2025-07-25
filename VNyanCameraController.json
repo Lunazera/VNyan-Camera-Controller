@@ -103,8 +103,8 @@
                     "value": "CamController"
                 }
             ],
-            "posX": 751.9984741210938,
-            "posY": 1373.6605224609375,
+            "posX": 745.9984741210938,
+            "posY": 1384.6605224609375,
             "path": "Nodes/DestroyCObjectNode",
             "ownerBlockId": "966008de-9715-4a6e-b024-798d0abc00b6",
             "inputSocketIds": [
@@ -459,8 +459,8 @@
                     "value": ""
                 }
             ],
-            "posX": 7058.16259765625,
-            "posY": 994.3255615234375,
+            "posX": 7048.16259765625,
+            "posY": 974.3255615234375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "9ce33c49-f56e-429e-9aea-e5661a485e24",
             "inputSocketIds": [
@@ -747,8 +747,8 @@
         {
             "id": "e4ee5a84-8adc-4b4b-8b34-94847770887c",
             "values": [],
-            "posX": 6364.837890625,
-            "posY": 636.9906005859375,
+            "posX": 6424.837890625,
+            "posY": 633.6572875976563,
             "path": "Nodes/FilterBoolNode",
             "ownerBlockId": "9ce33c49-f56e-429e-9aea-e5661a485e24",
             "inputSocketIds": [
@@ -2887,8 +2887,8 @@
                     "value": "2"
                 }
             ],
-            "posX": 2007.3204345703125,
-            "posY": 1237.5052490234375,
+            "posX": 2079.3203125,
+            "posY": 1245.5052490234375,
             "path": "Nodes/TextSwitchFlexNode",
             "ownerBlockId": "0010fea5-6b99-47a4-a42a-1306f84322e3",
             "inputSocketIds": [
@@ -2920,11 +2920,11 @@
                 },
                 {
                     "key": "message",
-                    "value": "<size=25>Control Mode\n1 = Keyboard\n2 = Gamepad\n0 = Off"
+                    "value": "<size=25>Control Mode\n1 = Keyboard\n2 = Gamepad"
                 }
             ],
-            "posX": 62.3345947265625,
-            "posY": 454.8421630859375,
+            "posX": 364.00128173828127,
+            "posY": -526.8244018554688,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "",
             "inputSocketIds": [],
@@ -3574,8 +3574,8 @@
                     "value": "SmoothVal_Max"
                 }
             ],
-            "posX": 6045.3310546875,
-            "posY": 925.8333740234375,
+            "posX": 6083.66455078125,
+            "posY": 949.1666870117188,
             "path": "Nodes/ParamToDecimalNode",
             "ownerBlockId": "9ce33c49-f56e-429e-9aea-e5661a485e24",
             "inputSocketIds": [],
@@ -5026,8 +5026,8 @@
                     "value": "ToggleCameraControls"
                 }
             ],
-            "posX": -1265.327392578125,
-            "posY": -173.83193969726563,
+            "posX": -1083.66064453125,
+            "posY": -327.1619567871094,
             "path": "Nodes/WebsocketNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5050,8 +5050,8 @@
                     "value": "2"
                 }
             ],
-            "posX": -1136.994384765625,
-            "posY": -88.83102416992188,
+            "posX": -955.32763671875,
+            "posY": -242.16104125976563,
             "path": "Nodes/CyclerFlexNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -5063,60 +5063,6 @@
             ],
             "headerColor": 7,
             "inputValueSocketIds": [],
-            "outputValueSocketIds": []
-        },
-        {
-            "id": "a2cac261-e7f6-4cad-a9a4-4eee255842ef",
-            "values": [
-                {
-                    "key": "paramName",
-                    "value": "CameraControlToggle"
-                },
-                {
-                    "key": "value",
-                    "value": "0"
-                }
-            ],
-            "posX": -901.3275146484375,
-            "posY": -159.83102416992188,
-            "path": "Nodes/SetParamNode",
-            "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
-            "inputSocketIds": [
-                "942106ca-b599-4b68-91fb-2ba7c46ad44d638887476400998072"
-            ],
-            "outputSocketIds": [],
-            "headerColor": 0,
-            "inputValueSocketIds": [
-                "4eb38991-d0dc-461a-837c-073f0ed79cc3638887476400998072",
-                "b1480a3d-f365-46a5-a728-96a9ece82113638887476400998072"
-            ],
-            "outputValueSocketIds": []
-        },
-        {
-            "id": "bf6b2613-668a-4d8c-9ba3-aed81892e210",
-            "values": [
-                {
-                    "key": "paramName",
-                    "value": "CameraControlToggle"
-                },
-                {
-                    "key": "value",
-                    "value": "1"
-                }
-            ],
-            "posX": -677.9940185546875,
-            "posY": -159.16452026367188,
-            "path": "Nodes/SetParamNode",
-            "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
-            "inputSocketIds": [
-                "1a1ff231-671e-47c9-a247-2db10db0e2ec638887476456384910"
-            ],
-            "outputSocketIds": [],
-            "headerColor": 0,
-            "inputValueSocketIds": [
-                "891183f2-94e8-4c1d-96da-f96100c1c8b1638887476456384910",
-                "833c6c2a-049e-45f1-a3f8-a161429eeb4c638887476456384910"
-            ],
             "outputValueSocketIds": []
         },
         {
@@ -5177,8 +5123,8 @@
                     "value": "<size=20>Camera Controls Toggle</size>"
                 }
             ],
-            "posX": -1371.328369140625,
-            "posY": 4.169105529785156,
+            "posX": -1189.66162109375,
+            "posY": -149.16091918945313,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5195,8 +5141,8 @@
                     "value": "ToggleCamera"
                 }
             ],
-            "posX": -1263.6641845703125,
-            "posY": 161.49990844726563,
+            "posX": -1081.9974365234375,
+            "posY": 8.169891357421875,
             "path": "Nodes/WebsocketNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5219,8 +5165,8 @@
                     "value": "2"
                 }
             ],
-            "posX": -1127.9974365234375,
-            "posY": 243.83316040039063,
+            "posX": -946.3306884765625,
+            "posY": 90.50314331054688,
             "path": "Nodes/CyclerFlexNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -5246,8 +5192,8 @@
                     "value": "0"
                 }
             ],
-            "posX": -889.6640625,
-            "posY": 210.83340454101563,
+            "posX": -707.997314453125,
+            "posY": 57.503387451171878,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -5278,8 +5224,8 @@
                     "value": "0"
                 }
             ],
-            "posX": -656.6639404296875,
-            "posY": 207.83340454101563,
+            "posX": -481.664794921875,
+            "posY": 64.50173950195313,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -5311,7 +5257,7 @@
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Camera Drone Controller</size>\n<color=#ca6fde>by Lunazera</color>\nJuly 2025 (v1.0) - \n\n▼——————————————— ▼\nControl a camera using keyboard hotkeys or a gamepad.\nThe main things you need to worry about are in the groups to the left and right of this message box.\n\nTo use this, trigger <b>SpawnCamera</b> (or use the websocket to the left) and the camera should swap to the new view. Use your keyboard hotkey controls to move the camera around. If you want to use your gamepad, use the <b>ControlMode</b> toggle.\n\nThere is also a Speed multipler parameter, CamMultiplier, you can use to speed up or slow down movement. On gamepad this is controlled with RB/LB. \n\nThe idea with this was also to get position/rotation transforms for camera's that you could save and use for reference. This was made to control a camera, but you could control <i>any</i> custom object with this. \n\n\n<size=20>Settings</size>\nThe right goup are the Main Settings, which are the custom object node, base speed, acceleration and deacceleration. Make sure it's set to spawn VNyanCam.\n\nThe left node group has toggles and controls to manage the camera.\n\n\n<size=20>Toggles</size>\n- <b>ControlMode</b> (keyboard, gamepad, or nothing)\n- <b>ControlToggle</b> to quickly turn on and off controls\n- <b>ToggleCamera</b> to spawn camera & start controls at default location or destroy it.\n- Triggers to <b>ResetPosition, ResetRotation, and ResetCamera (all settings)\n</b>\n<b>SaveCameraTransform </b>trigger will save the XYZ position and rotation to the text parameter <CameraTransform>\n\n\n<size=20>Controls</size>\n<b>Keyboard:</b>\nSHIFT + WASD = move forward/backward/left/right\nSHIFT + QE = rotate left/right\nSHIFT + RF = move up/down\nCTRL + WS = rotate up/down\nCTRL + RF = twist left/right\n\n<b>Gamepad:</b>\nLeft stick = move forward/backward/left/righ\nRight stick = rotate left/right, move up/down\nRB = Speed Up\nLB = Slow down\nLT/RT = rotate down/up\nDLeft = Reset all\nDUp = Reset position\nDDown = Reset Rotation\nX/Y = Twist"
+                    "value": "<size=30>Camera Drone Controller</size>\n<color=#ca6fde>by Lunazera</color>\nJuly 2025 (v1.1) - https://github.com/Lunazera/VNyan-Camera-Controller\n\n▼——————————————— ▼\nControl a camera using keyboard hotkeys or a gamepad.\nThe main things you need to worry about are in the groups to the left and right of this message box.\n\nTo use this, trigger <b>SpawnCamera</b> (or use the websocket to the left) and the camera should swap to the new view. Use your keyboard hotkey controls to move the camera around. If you want to use your gamepad, use the <b>ControlMode</b> toggle.\n\nThere is also a Speed multipler parameter, CamMultiplier, you can use to speed up or slow down movement. On gamepad this is controlled with RB/LB. \n\nThe idea with this was also to get position/rotation transforms for camera's that you could save and use for reference. This was made to control a camera, but you could control <i>any</i> custom object with this. \n\n\n<size=20>Settings</size>\nThe right goup are the Main Settings, which are the custom object node, base speed, acceleration and deacceleration. Make sure it's set to spawn VNyanCam.\n\nThe left node group has toggles and controls to manage the camera.\n\n\n<size=20>Toggles</size>\n- <b>ControlMode</b> (keyboard, gamepad, or nothing)\n- <b>ControlToggle</b> to quickly turn on and off controls\n- <b>ToggleCamera</b> to spawn camera & start controls at default location or destroy it.\n- Triggers to <b>ResetPosition, ResetRotation, and ResetCamera (all settings)\n</b>\n<b>SaveCameraTransform </b>trigger will save the XYZ position and rotation to the text parameter <CameraTransform>\n\n\n<size=20>Controls</size>\n<b>Keyboard:</b>\nSHIFT + WASD = move forward/backward/left/right\nSHIFT + QE = rotate left/right\nSHIFT + RF = move up/down\nCTRL + WS = rotate up/down\nCTRL + RF = twist left/right\n\n<b>Gamepad:</b>\nLeft stick = move forward/backward/left/righ\nRight stick = rotate left/right, move up/down\nRB = Speed Up\nLB = Slow down\nLT/RT = rotate down/up\nDLeft = Reset all\nDUp = Reset position\nDDown = Reset Rotation\nX/Y = Twist"
                 }
             ],
             "posX": -323.3291015625,
@@ -5332,8 +5278,8 @@
                     "value": "CAMResetALL"
                 }
             ],
-            "posX": -1740.666015625,
-            "posY": 268.6673889160156,
+            "posX": -1558.999267578125,
+            "posY": 115.33737182617188,
             "path": "Nodes/WebsocketNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5360,8 +5306,8 @@
                     "value": "0"
                 }
             ],
-            "posX": -1518.666015625,
-            "posY": 212.66738891601563,
+            "posX": -1336.999267578125,
+            "posY": 59.337371826171878,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -5388,8 +5334,8 @@
                     "value": "CAMResetRotation"
                 }
             ],
-            "posX": -1748.665771484375,
-            "posY": -26.332611083984376,
+            "posX": -1566.9990234375,
+            "posY": -179.66262817382813,
             "path": "Nodes/WebsocketNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5416,8 +5362,8 @@
                     "value": "0"
                 }
             ],
-            "posX": -1520.665771484375,
-            "posY": -84.33267211914063,
+            "posX": -1338.9990234375,
+            "posY": -237.66268920898438,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -5444,8 +5390,8 @@
                     "value": "CAMResetPosition"
                 }
             ],
-            "posX": -1763.99951171875,
-            "posY": -329.9993591308594,
+            "posX": -1582.332763671875,
+            "posY": -483.3293762207031,
             "path": "Nodes/WebsocketNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5472,8 +5418,8 @@
                     "value": "0"
                 }
             ],
-            "posX": -1527.9990234375,
-            "posY": -385.9993591308594,
+            "posX": -1346.332275390625,
+            "posY": -539.3294067382813,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -5508,8 +5454,8 @@
                     "value": "<size=20>Camera On/Off Toggle</size>"
                 }
             ],
-            "posX": -1366.3284912109375,
-            "posY": 351.1690979003906,
+            "posX": -1184.6617431640625,
+            "posY": 197.83908081054688,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5534,8 +5480,8 @@
                     "value": "<size=20>Reset Position/Rotation</size>"
                 }
             ],
-            "posX": -2005.6614990234375,
-            "posY": 352.5023498535156,
+            "posX": -1823.9947509765625,
+            "posY": 199.17233276367188,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5560,8 +5506,8 @@
                     "value": "<size=20>Reset Rotation</size>"
                 }
             ],
-            "posX": -2010.6617431640625,
-            "posY": 59.502349853515628,
+            "posX": -1828.9949951171875,
+            "posY": -93.82766723632813,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -5586,8 +5532,8 @@
                     "value": "<size=20>Reset Position</size>"
                 }
             ],
-            "posX": -2026.6617431640625,
-            "posY": -244.49758911132813,
+            "posX": -1844.9949951171875,
+            "posY": -397.8276062011719,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -8749,8 +8695,8 @@
                     "value": "ToggleCameraMode"
                 }
             ],
-            "posX": -1266.9940185546875,
-            "posY": -387.1652526855469,
+            "posX": -1090.3272705078125,
+            "posY": -548.82861328125,
             "path": "Nodes/WebsocketNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [],
@@ -8770,11 +8716,11 @@
             "values": [
                 {
                     "key": "opts",
-                    "value": "3"
+                    "value": "2"
                 }
             ],
-            "posX": -1138.6610107421875,
-            "posY": -302.1643981933594,
+            "posX": -956.9942626953125,
+            "posY": -455.4944152832031,
             "path": "Nodes/CyclerFlexNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -8782,8 +8728,7 @@
             ],
             "outputSocketIds": [
                 "fd195c5c-d424-4ba5-9f6f-c1274b2dba7e638889037182930362",
-                "361ca0dd-4e44-4ab0-ab94-a1b1c541748c638889037182930362",
-                "6e389277-c9e1-4e86-8355-c8ada86b75e9638889037442896085"
+                "361ca0dd-4e44-4ab0-ab94-a1b1c541748c638889037182930362"
             ],
             "headerColor": 7,
             "inputValueSocketIds": [],
@@ -8801,8 +8746,8 @@
                     "value": "2"
                 }
             ],
-            "posX": -899.6510009765625,
-            "posY": -391.1539611816406,
+            "posX": -717.9842529296875,
+            "posY": -544.4840087890625,
             "path": "Nodes/SetTextParamNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -8813,33 +8758,6 @@
             "inputValueSocketIds": [
                 "9e8da61c-bf67-4a8c-8f62-c0d8a882b5a0638889037320346753",
                 "c0b43931-eb01-4d82-8bcf-418c34e23642638889037320346753"
-            ],
-            "outputValueSocketIds": []
-        },
-        {
-            "id": "f7827c3c-de4c-4c6f-bfeb-b4e5a20e001c",
-            "values": [
-                {
-                    "key": "paramName",
-                    "value": "CameraControlMode"
-                },
-                {
-                    "key": "value",
-                    "value": "0"
-                }
-            ],
-            "posX": -681.317626953125,
-            "posY": -391.1539001464844,
-            "path": "Nodes/SetTextParamNode",
-            "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
-            "inputSocketIds": [
-                "e9efa7fc-1cc3-487b-9585-c54c7583ef38638889037353932325"
-            ],
-            "outputSocketIds": [],
-            "headerColor": 0,
-            "inputValueSocketIds": [
-                "073885cd-5607-4c4f-9e6d-69241ff89bb3638889037353932325",
-                "7dbb217f-5a7e-4dd8-b381-8a2043c8bd94638889037353932325"
             ],
             "outputValueSocketIds": []
         },
@@ -8855,8 +8773,8 @@
                     "value": "1"
                 }
             ],
-            "posX": -461.317626953125,
-            "posY": -391.1539001464844,
+            "posX": -494.9842529296875,
+            "posY": -540.1505737304688,
             "path": "Nodes/SetTextParamNode",
             "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
             "inputSocketIds": [
@@ -10427,8 +10345,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 984.9965209960938,
-            "posY": 1348.6793212890625,
+            "posX": 992.9965209960938,
+            "posY": 1164.6793212890625,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "966008de-9715-4a6e-b024-798d0abc00b6",
             "inputSocketIds": [
@@ -10473,6 +10391,176 @@
                 "464a2716-718b-48a3-afae-aff340ea2d03638889845325807757"
             ],
             "outputValueSocketIds": []
+        },
+        {
+            "id": "a66aef97-d0cd-4c78-b456-933b653ddc08",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "CameraControlToggle"
+                },
+                {
+                    "key": "value",
+                    "value": "0"
+                }
+            ],
+            "posX": -721.9842529296875,
+            "posY": -293.4839782714844,
+            "path": "Nodes/SetTextParamNode",
+            "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
+            "inputSocketIds": [
+                "ef910b6a-60d7-4842-959b-5f8fcead4c77638890565531270860"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [
+                "893b7f48-e882-403e-8e8f-b3781e3a2b9e638890565531270860",
+                "ee0f8e72-0a7a-4a3a-966a-296010c02d6f638890565531270860"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "9ad8b88c-d428-461c-afd2-34a8b69253e9",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "CameraControlToggle"
+                },
+                {
+                    "key": "value",
+                    "value": "1"
+                }
+            ],
+            "posX": -502.9842529296875,
+            "posY": -294.4839782714844,
+            "path": "Nodes/SetTextParamNode",
+            "ownerBlockId": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
+            "inputSocketIds": [
+                "61d3de2a-d2bb-4466-8e90-073f78377210638890565622807504"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [
+                "af4b1828-ab5c-4a3e-aba4-89d6131ea780638890565622807504",
+                "a98548d3-67cb-44a0-91d0-b9d422e0c50b638890565622807504"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "9c4e9369-7bc1-4e51-87ad-a9ac6d334551",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "230"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "178"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=25>Control Toggle\n1 = On\n2 = Off"
+                }
+            ],
+            "posX": 656.0012817382813,
+            "posY": -525.8244018554688,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "4c863766-7606-47e0-813d-936185ada873",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "test"
+                },
+                {
+                    "key": "value1",
+                    "value": "[test]"
+                },
+                {
+                    "key": "value2",
+                    "value": "1"
+                },
+                {
+                    "key": "operation",
+                    "value": "0"
+                }
+            ],
+            "posX": 7694.66796875,
+            "posY": 1528.6666259765625,
+            "path": "Nodes/ParamOpNode",
+            "ownerBlockId": "",
+            "inputSocketIds": [
+                "0a222dbe-ab46-408c-8e09-bb2d0e668514638890570869031856"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [
+                "39da5087-6a35-4706-b7f5-096bb8e39735638890570869031856",
+                "8d1991af-d377-433d-90b2-013638d20297638890570869031856",
+                "4c68e16d-65b7-46ea-8f4c-126b2ce0b2be638890570869031856"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "9880bfb5-e4b5-4b7f-830c-c910aee392a3",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "test2"
+                },
+                {
+                    "key": "value",
+                    "value": ""
+                }
+            ],
+            "posX": 7631.9970703125,
+            "posY": 975.334228515625,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "",
+            "inputSocketIds": [
+                "72bb78ac-40d2-409d-a394-2eeb5b8e3cc3638890571885225805"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 0,
+            "inputValueSocketIds": [
+                "bded765d-e7f4-4c9b-937e-a3045c5b64d4638890571885225805",
+                "38e2ec69-7eb8-4edc-a423-52ed14d5b78c638890571885225805"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "f82694e5-8c10-4861-9dd5-724e3f9edd7f",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "CamMultiplier"
+                },
+                {
+                    "key": "value",
+                    "value": "1"
+                }
+            ],
+            "posX": 989.9962768554688,
+            "posY": 1431.3348388671875,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "966008de-9715-4a6e-b024-798d0abc00b6",
+            "inputSocketIds": [
+                "cf40df9b-a1b3-4b7f-b41c-cda6125074f7638890573693086126"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "aae485aa-20e8-4a9c-86b0-4efc29eeec96638890573693086126",
+                "b5fd5425-dac7-460d-9cde-6c59fe0d57b1638890573693086126"
+            ],
+            "outputValueSocketIds": []
         }
     ],
     "blocks": [
@@ -10494,7 +10582,7 @@
             "sizeY": 1308.289306640625,
             "title": "Smooth Motion in one axis",
             "headerColor": 2,
-            "isLocked": true
+            "isLocked": false
         },
         {
             "id": "5c30f5c1-e829-4324-bb9e-e3824d76dd10",
@@ -10514,7 +10602,7 @@
             "sizeY": 869.7654418945313,
             "title": "Left/Right",
             "headerColor": 6,
-            "isLocked": true
+            "isLocked": false
         },
         {
             "id": "7a08a5fe-2d43-421e-a8e0-8209b1156bf9",
@@ -10598,10 +10686,10 @@
         },
         {
             "id": "f5053258-856f-4f02-a7a5-ef04555ce2f7",
-            "posX": -2031.32958984375,
-            "posY": 404.3359375,
-            "sizeX": 1682.999755859375,
-            "sizeY": 957.0000610351563,
+            "posX": -1849.6630859375,
+            "posY": 251.0029296875,
+            "sizeX": 1499.6661376953125,
+            "sizeY": 963.666748046875,
             "title": "Hotkey/Websocket controls",
             "headerColor": 5,
             "isLocked": false
@@ -10857,11 +10945,6 @@
             "id": "c5946c6c-b7fd-43ff-b206-531567e2a7db",
             "outputSocketId": "96cf0e95-694b-4feb-a108-d49c2f85d550638887314220295224",
             "inputSocketId": "26c76ca6-7140-4ea3-bddb-c233209cff1b638887250072247356"
-        },
-        {
-            "id": "6e559caa-c20b-43ab-845d-8c83f224b232",
-            "outputSocketId": "af8ff038-9372-4669-b8ed-2d6c600c78ca638887444645930667",
-            "inputSocketId": "69cf7cbd-1c63-4a68-9b35-3d0a9c093961638887443945523750"
         },
         {
             "id": "44210e72-878c-4650-8ed4-d97a265536d5",
@@ -11137,16 +11220,6 @@
             "id": "248e55c0-87de-4d5b-b0e4-fa99f12601ce",
             "outputSocketId": "54b03a57-5c58-4e80-a3ef-be2ce0b266a3638887475704051474",
             "inputSocketId": "773781ea-accc-4c5d-839a-f37a97f32d6e638887475805247228"
-        },
-        {
-            "id": "30fdefcb-18a3-4fae-b8b0-557e5aefbe22",
-            "outputSocketId": "7fdf5e64-9ee9-46d9-b11d-4fc41d855508638887475805247228",
-            "inputSocketId": "942106ca-b599-4b68-91fb-2ba7c46ad44d638887476400998072"
-        },
-        {
-            "id": "1bc38a03-6f6f-4733-acf0-141ffb4ae1e7",
-            "outputSocketId": "183f7965-fe23-484e-a5d0-f04dde2e167e638887475805247228",
-            "inputSocketId": "1a1ff231-671e-47c9-a247-2db10db0e2ec638887476456384910"
         },
         {
             "id": "9f494e7d-bcb9-4c29-9e85-4eed287bbacd",
@@ -11584,24 +11657,9 @@
             "inputSocketId": "d6737f62-da76-46c3-a2d1-df9a04e1cd83638889033455927391"
         },
         {
-            "id": "8a5c175c-1b7c-428f-977f-83751fc08be5",
-            "outputSocketId": "70f6cf02-1d95-4c32-85a0-ed6e37d6f3b4638889037182904836",
-            "inputSocketId": "f94c5a5b-6549-4a1b-9351-9dde3c3cdbc2638889037182930362"
-        },
-        {
             "id": "ce6140d2-e3af-4edc-9bdd-9b5e4fb09ec7",
             "outputSocketId": "fd195c5c-d424-4ba5-9f6f-c1274b2dba7e638889037182930362",
             "inputSocketId": "23347657-d9d3-462e-81ed-31c37ca414dc638889037320346753"
-        },
-        {
-            "id": "5d457a66-04ed-4573-be63-18b3112afb84",
-            "outputSocketId": "361ca0dd-4e44-4ab0-ab94-a1b1c541748c638889037182930362",
-            "inputSocketId": "e9efa7fc-1cc3-487b-9585-c54c7583ef38638889037353932325"
-        },
-        {
-            "id": "7570d869-34c8-4029-8bfe-2a8cbf21d5db",
-            "outputSocketId": "6e389277-c9e1-4e86-8355-c8ada86b75e9638889037442896085",
-            "inputSocketId": "767b5280-2c7f-4e1c-958d-16da5c06ef6c638889037549856272"
         },
         {
             "id": "131e77e8-2400-446b-93b0-1ce53dd983f0",
@@ -11692,11 +11750,6 @@
             "id": "b12f8da9-30ba-4153-8694-dd92337521ab",
             "outputSocketId": "ae4c4cb5-31fa-4d14-9f95-655a1e5daed8638872359260880046",
             "inputSocketId": "0ef2d5d5-340a-4caa-8a8c-4c1d3e02605b638872451860750295"
-        },
-        {
-            "id": "061bf8fd-f9f2-43ae-ba4d-fd2c3a8144a3",
-            "outputSocketId": "3fd7debe-bbb2-4c61-b137-721c08457017638887443945523750",
-            "inputSocketId": "312fee1e-7cd9-45b6-abd9-4f4488de61ef638887297152265864"
         },
         {
             "id": "0ed9ab49-970f-48f6-9a8b-6a68e1c0f70a",
@@ -12007,6 +12060,51 @@
             "id": "d61ed54d-f4f0-48fd-b295-8cc23e72c45d",
             "outputSocketId": "6f79af73-33e6-472d-ad17-2b8c9f88f2ef638887474434233752",
             "inputSocketId": "22bcda89-50fc-4070-a6d3-b73aa8c36fb1638889845325807757"
+        },
+        {
+            "id": "db289f87-13e7-4621-929e-f5a7fef1a431",
+            "outputSocketId": "7fdf5e64-9ee9-46d9-b11d-4fc41d855508638887475805247228",
+            "inputSocketId": "ef910b6a-60d7-4842-959b-5f8fcead4c77638890565531270860"
+        },
+        {
+            "id": "7e68f12b-e144-4859-926f-0082a846f184",
+            "outputSocketId": "183f7965-fe23-484e-a5d0-f04dde2e167e638887475805247228",
+            "inputSocketId": "61d3de2a-d2bb-4466-8e90-073f78377210638890565622807504"
+        },
+        {
+            "id": "fa051b81-3814-4de6-a550-757d980f183e",
+            "outputSocketId": "70f6cf02-1d95-4c32-85a0-ed6e37d6f3b4638889037182904836",
+            "inputSocketId": "f94c5a5b-6549-4a1b-9351-9dde3c3cdbc2638889037182930362"
+        },
+        {
+            "id": "564f8c73-d502-4fae-9c42-bd9d430799f3",
+            "outputSocketId": "af8ff038-9372-4669-b8ed-2d6c600c78ca638887444645930667",
+            "inputSocketId": "69cf7cbd-1c63-4a68-9b35-3d0a9c093961638887443945523750"
+        },
+        {
+            "id": "82f6ec67-c593-45d2-bf71-bc598e54bd0b",
+            "outputSocketId": "3fd7debe-bbb2-4c61-b137-721c08457017638887443945523750",
+            "inputSocketId": "312fee1e-7cd9-45b6-abd9-4f4488de61ef638887297152265864"
+        },
+        {
+            "id": "ae6cdf48-9d6a-4546-97b7-e54c3bbdce9c",
+            "outputSocketId": "a4b94160-32d8-452b-a7ca-592ae62199db638872380861666082",
+            "inputSocketId": "0a222dbe-ab46-408c-8e09-bb2d0e668514638890570869031856"
+        },
+        {
+            "id": "5616f1aa-a5f8-42b2-92c5-7d762fe7c5e9",
+            "outputSocketId": "d5b783e6-bf08-47cf-a87a-d6805cec6834638872386712651642",
+            "inputSocketId": "72bb78ac-40d2-409d-a394-2eeb5b8e3cc3638890571885225805"
+        },
+        {
+            "id": "55387cfe-b451-41e5-bd5c-930263e71c2e",
+            "outputSocketId": "6f79af73-33e6-472d-ad17-2b8c9f88f2ef638887474434233752",
+            "inputSocketId": "cf40df9b-a1b3-4b7f-b41c-cda6125074f7638890573693086126"
+        },
+        {
+            "id": "c2866af2-1fb1-4651-b9eb-1dd36caa1d03",
+            "outputSocketId": "361ca0dd-4e44-4ab0-ab94-a1b1c541748c638889037182930362",
+            "inputSocketId": "767b5280-2c7f-4e1c-958d-16da5c06ef6c638889037549856272"
         }
     ],
     "valueConnections": [
@@ -12839,6 +12937,11 @@
             "id": "e4e25e5f-5a20-42a2-b301-48cdebea73c2",
             "outputSocketId": "9344a0e0-a016-4200-a840-9b3e305338d0638889714263996758",
             "inputSocketId": "bebfcbff-5d5a-44a1-8cd2-bdc489b0972f638887315269505893"
+        },
+        {
+            "id": "53e21692-69a1-40c1-84b3-b92cf1396e1e",
+            "outputSocketId": "d775d422-a870-492c-8a8c-67d21511520c638887459739717021",
+            "inputSocketId": "38e2ec69-7eb8-4edc-a423-52ed14d5b78c638890571885225805"
         }
     ]
 }
