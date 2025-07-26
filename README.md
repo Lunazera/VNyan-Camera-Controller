@@ -1,12 +1,16 @@
 # LZ'z VNyan Camera Controller
 
-Control a camera using keyboard hotkeys or a gamepad.
+Control a camera using keyboard hotkeys or a gamepad!
 
-To use this, trigger <b>SpawnCamera</b> and the camera should swap to the new view. Use your keyboard hotkey controls to move the camera around. If you want to use your gamepad, use the <b>ControlMode</b> toggle.
+![Example 1](examples/camcontrollerexample1.gif)
+*controller pose not included*
 
-There is also a Speed multipler parameter, CamMultiplier, you can use to speed up or slow down movement. On gamepad this is controlled with RB/LB. 
+To use this, trigger <b>SpawnCamera</b> and the camera should swap to the new view. Use your keyboard hotkey controls to move the camera around. If you want to use your gamepad, use the <b>ControlMode</b> toggle. There is also a Speed multipler parameter, CamMultiplier, you can use to speed up or slow down movement. On gamepad this is controlled with RB/LB. 
 
-The idea with this was also to get position/rotation transforms for camera's that you could save and use for reference. This was made to control a camera, but you could control <i>any</i> custom object with this. 
+The idea with this was also to get position/rotation transforms for camera's that you could save and use for reference. Positioning with VNyan's Default camera can be tricky at times if you want to get a specific spot and angle. With this you can position your camera more intuitively, then check it's location.
+![Example 2](examples/camcontrollerexample2.gif)
+
+*This was made to control a camera, but you could control *any* custom object with this.*
 
 ## Settings
 The right goup are the Main Settings, which are the custom object node, base speed, acceleration and deacceleration. Make sure it's set to spawn VNyanCam.
