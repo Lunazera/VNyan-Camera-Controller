@@ -400,8 +400,8 @@
                     "value": "CamController"
                 }
             ],
-            "posX": 4811.8310546875,
-            "posY": 2465.672607421875,
+            "posX": -2131.50244140625,
+            "posY": -1340.9952392578125,
             "path": "Nodes/GetCObjectTransformNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -1577,8 +1577,8 @@
                     "value": "ResetCamera"
                 }
             ],
-            "posX": 1338.661865234375,
-            "posY": 613.3257446289063,
+            "posX": 1643.6617431640625,
+            "posY": 363.32574462890627,
             "path": "Nodes/TriggerNode",
             "ownerBlockId": "",
             "inputSocketIds": [],
@@ -2044,8 +2044,8 @@
                     "value": "324"
                 }
             ],
-            "posX": 5275.1689453125,
-            "posY": -18.336410522460939,
+            "posX": 5573.49365234375,
+            "posY": -14.668655395507813,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2067,8 +2067,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 4843.82958984375,
-            "posY": -190.664794921875,
+            "posX": 5142.154296875,
+            "posY": -186.9970245361328,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2091,8 +2091,8 @@
                     "value": "321"
                 }
             ],
-            "posX": 5299.169921875,
-            "posY": -694.6712646484375,
+            "posX": 5597.49462890625,
+            "posY": -691.0033569335938,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2118,8 +2118,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5510.0205078125,
-            "posY": -39.83763122558594,
+            "posX": 5808.34521484375,
+            "posY": -36.16987609863281,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2145,8 +2145,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5732.6884765625,
-            "posY": -41.50511169433594,
+            "posX": 6031.01318359375,
+            "posY": -37.83735656738281,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2172,8 +2172,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5525.353515625,
-            "posY": -695.1707763671875,
+            "posX": 5823.67822265625,
+            "posY": -691.5028686523438,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2199,8 +2199,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5739.3544921875,
-            "posY": -703.1712646484375,
+            "posX": 6037.67919921875,
+            "posY": -699.5033569335938,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2226,8 +2226,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5943.02392578125,
-            "posY": -382.1710510253906,
+            "posX": 6241.3486328125,
+            "posY": -378.50323486328127,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2258,8 +2258,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5691.68896484375,
-            "posY": -274.1695861816406,
+            "posX": 5990.013671875,
+            "posY": -270.50177001953127,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -2285,8 +2285,8 @@
                     "value": ".001"
                 }
             ],
-            "posX": 5093.689453125,
-            "posY": -572.5037841796875,
+            "posX": 5392.01416015625,
+            "posY": -568.8358764648438,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [],
@@ -2307,8 +2307,8 @@
                     "value": ".0025"
                 }
             ],
-            "posX": 5086.0224609375,
-            "posY": -711.5037841796875,
+            "posX": 5384.34716796875,
+            "posY": -707.8358764648438,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [],
@@ -2337,8 +2337,8 @@
                     "value": "<size=20>Handle Movement Hotkeys</size>\n\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 4820.1640625,
-            "posY": 53.33518981933594,
+            "posX": 5118.48876953125,
+            "posY": 57.00293731689453,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [],
@@ -2363,8 +2363,8 @@
                     "value": "<size=20>Acceleration</size>"
                 }
             ],
-            "posX": 4821.83154296875,
-            "posY": -512.3321533203125,
+            "posX": 5120.15625,
+            "posY": -508.66436767578127,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [],
@@ -2389,8 +2389,8 @@
                     "value": "<size=20>Speed Scale</size>"
                 }
             ],
-            "posX": 4812.83154296875,
-            "posY": -659.33203125,
+            "posX": 5111.15625,
+            "posY": -655.6641235351563,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [],
@@ -2547,8 +2547,8 @@
                     "value": "ResetRotation"
                 }
             ],
-            "posX": 1119.994873046875,
-            "posY": 613.9925537109375,
+            "posX": 1648.3282470703125,
+            "posY": 113.9925537109375,
             "path": "Nodes/TriggerNode",
             "ownerBlockId": "",
             "inputSocketIds": [],
@@ -2574,8 +2574,8 @@
                     "value": "ResetPosition"
                 }
             ],
-            "posX": 884.9948120117188,
-            "posY": 622.6583862304688,
+            "posX": 1643.3282470703125,
+            "posY": -132.341552734375,
             "path": "Nodes/TriggerNode",
             "ownerBlockId": "",
             "inputSocketIds": [],
@@ -2601,8 +2601,8 @@
                     "value": "SaveCameraTransform"
                 }
             ],
-            "posX": 5981.3349609375,
-            "posY": 2448.002197265625,
+            "posX": -961.99853515625,
+            "posY": -1358.6656494140625,
             "path": "Nodes/TriggerNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2632,8 +2632,8 @@
                     "value": ""
                 }
             ],
-            "posX": 6352.8330078125,
-            "posY": 2442.672119140625,
+            "posX": -590.50048828125,
+            "posY": -1363.9957275390625,
             "path": "Nodes/SetTextParamNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [
@@ -2650,8 +2650,8 @@
         {
             "id": "ef002cdc-b46b-43be-b1c2-e5a73c631a60",
             "values": [],
-            "posX": 5039.83349609375,
-            "posY": 2429.006103515625,
+            "posX": -1903.5,
+            "posY": -1377.6617431640625,
             "path": "Nodes/Vector3ToDecimalNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2674,8 +2674,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 5249.166015625,
-            "posY": 2480.672607421875,
+            "posX": -1694.16748046875,
+            "posY": -1325.9952392578125,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2696,8 +2696,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 5249.8330078125,
-            "posY": 2351.672607421875,
+            "posX": -1693.50048828125,
+            "posY": -1454.9952392578125,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2718,8 +2718,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 5245.8330078125,
-            "posY": 2217.339111328125,
+            "posX": -1697.50048828125,
+            "posY": -1589.3287353515625,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2744,8 +2744,8 @@
                     "value": ","
                 }
             ],
-            "posX": 5461.16650390625,
-            "posY": 2464.33935546875,
+            "posX": -1482.1669921875,
+            "posY": -1342.3284912109375,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2771,8 +2771,8 @@
                     "value": ","
                 }
             ],
-            "posX": 5447.1669921875,
-            "posY": 2282.672607421875,
+            "posX": -1496.16650390625,
+            "posY": -1523.9952392578125,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2798,8 +2798,8 @@
                     "value": ""
                 }
             ],
-            "posX": 5661.8330078125,
-            "posY": 2291.006103515625,
+            "posX": -1281.50048828125,
+            "posY": -1515.6617431640625,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2825,8 +2825,8 @@
                     "value": ""
                 }
             ],
-            "posX": 5862.4990234375,
-            "posY": 2163.339111328125,
+            "posX": -1080.83447265625,
+            "posY": -1643.3287353515625,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -2845,11 +2845,11 @@
             "values": [
                 {
                     "key": "opts",
-                    "value": "6"
+                    "value": "7"
                 }
             ],
-            "posX": 4621.166015625,
-            "posY": -177.0006866455078,
+            "posX": 4910.83154296875,
+            "posY": -170.0006103515625,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "",
             "inputSocketIds": [
@@ -2861,7 +2861,8 @@
                 "438d8b04-b132-4371-86db-59d5def3cb6e638887490707289699",
                 "07192a89-bc29-4eac-9884-3789e55f812c638887490707289699",
                 "ca1456cf-f211-459a-b6b9-6e567bd7b8d4638887490707289699",
-                "3487d23e-6e13-4980-b49c-bdd163a1c7db638887490707289699"
+                "3487d23e-6e13-4980-b49c-bdd163a1c7db638887490707289699",
+                "e93e184f-bb2f-4ff7-9a2f-cccd499fcde3638891547045868271"
             ],
             "headerColor": 6,
             "inputValueSocketIds": [],
@@ -2923,8 +2924,8 @@
                     "value": "<size=25>Control Mode\n1 = Keyboard\n2 = Gamepad"
                 }
             ],
-            "posX": 364.00128173828127,
-            "posY": -526.8244018554688,
+            "posX": 1013.0012817382813,
+            "posY": -538.8244018554688,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "",
             "inputSocketIds": [],
@@ -2949,8 +2950,8 @@
                     "value": "<size=30>Keyboard Control</size>\nAll the keyboard inputs to control the camera.\n\nThis these will only run when control mode is set to 1. There's a box for each XYZ of position and rotation. They all call SmoothVal to run, but will only do so when in motion.\n\nEach has an Acceleration and speed scale."
                 }
             ],
-            "posX": 4493.66845703125,
-            "posY": 85.99835205078125,
+            "posX": 4795.33544921875,
+            "posY": 90.99835205078125,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "",
             "inputSocketIds": [],
@@ -2971,8 +2972,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2424.0185546875,
-            "posY": -113.50244140625,
+            "posX": 2617.35205078125,
+            "posY": -110.16961669921875,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [
@@ -2998,8 +2999,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2639.6865234375,
-            "posY": -114.169921875,
+            "posX": 2833.02001953125,
+            "posY": -110.83709716796875,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [
@@ -3025,8 +3026,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2640.3515625,
-            "posY": -274.83587646484377,
+            "posX": 2833.68505859375,
+            "posY": -271.5030517578125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [
@@ -3052,8 +3053,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2424.68505859375,
-            "posY": -273.5029296875,
+            "posX": 2618.0185546875,
+            "posY": -270.17010498046877,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [
@@ -3079,8 +3080,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2880.021728515625,
-            "posY": -186.50244140625,
+            "posX": 3073.355224609375,
+            "posY": -183.16961669921876,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [
@@ -3111,8 +3112,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2427.0205078125,
-            "posY": -421.1676330566406,
+            "posX": 2620.35400390625,
+            "posY": -417.8348083496094,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [
@@ -3138,8 +3139,8 @@
                     "value": ".001"
                 }
             ],
-            "posX": 2185.6865234375,
-            "posY": -656.1688232421875,
+            "posX": 2379.02001953125,
+            "posY": -652.8359985351563,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3160,8 +3161,8 @@
                     "value": ".005"
                 }
             ],
-            "posX": 2189.02001953125,
-            "posY": -788.1688232421875,
+            "posX": 2382.353515625,
+            "posY": -784.8359985351563,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3190,8 +3191,8 @@
                     "value": "<size=20>Handle Movement joystick</size>\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 1913.8271484375,
-            "posY": -25.32965087890625,
+            "posX": 2107.16064453125,
+            "posY": -21.996826171875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3216,8 +3217,8 @@
                     "value": "<size=20>Acceleration Speed</size>"
                 }
             ],
-            "posX": 1923.494384765625,
-            "posY": -588.9971923828125,
+            "posX": 2116.827880859375,
+            "posY": -585.6643676757813,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3242,8 +3243,8 @@
                     "value": "<size=20>Max Value</size>"
                 }
             ],
-            "posX": 1922.494384765625,
-            "posY": -718.9971923828125,
+            "posX": 2115.827880859375,
+            "posY": -715.6643676757813,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3268,8 +3269,8 @@
                     "value": "<size=30>Gamepad Controls</size>\nAll the gamepad inputs to control the camera.\n\nThis these will only run when control mode is set to 2. There's a box for each XYZ of position and rotation. They all call SmoothVal to run, but will only do so when in motion.\n\nEach has an Acceleration and speed scale."
                 }
             ],
-            "posX": 1604.002197265625,
-            "posY": 10.998298645019532,
+            "posX": 1799.002197265625,
+            "posY": 17.66492462158203,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "",
             "inputSocketIds": [],
@@ -3286,8 +3287,8 @@
                     "value": "7"
                 }
             ],
-            "posX": 1717.500732421875,
-            "posY": -264.6673583984375,
+            "posX": 1907.500732421875,
+            "posY": -283.0007019042969,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "",
             "inputSocketIds": [
@@ -3318,8 +3319,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2017.338134765625,
-            "posY": -306.1680603027344,
+            "posX": 2210.671630859375,
+            "posY": -302.8352355957031,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [
@@ -3345,8 +3346,8 @@
                     "value": "2"
                 }
             ],
-            "posX": 2597.33935546875,
-            "posY": -764.168212890625,
+            "posX": 2790.6728515625,
+            "posY": -760.8353881835938,
             "path": "Nodes/DecimalOperationNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3368,8 +3369,8 @@
                     "value": ""
                 }
             ],
-            "posX": 2399.6728515625,
-            "posY": -793.8348999023438,
+            "posX": 2593.00634765625,
+            "posY": -790.5020751953125,
             "path": "Nodes/TextToDecimalNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3390,8 +3391,8 @@
                     "value": "_gamepadleftx"
                 }
             ],
-            "posX": 2402.00634765625,
-            "posY": -663.5015258789063,
+            "posX": 2595.33984375,
+            "posY": -660.168701171875,
             "path": "Nodes/ParamToDecimalNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3412,8 +3413,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 2800.00634765625,
-            "posY": -789.8348388671875,
+            "posX": 2993.33984375,
+            "posY": -786.5020141601563,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -3600,8 +3601,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2425.348388671875,
-            "posY": -1014.500732421875,
+            "posX": 2630.3447265625,
+            "posY": -999.4990844726563,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [
@@ -3627,8 +3628,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2646.35009765625,
-            "posY": -1008.5013427734375,
+            "posX": 2851.346435546875,
+            "posY": -993.4996948242188,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [
@@ -3654,8 +3655,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2424.681884765625,
-            "posY": -1171.500732421875,
+            "posX": 2629.67822265625,
+            "posY": -1156.4991455078125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [
@@ -3681,8 +3682,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2636.681884765625,
-            "posY": -1170.167724609375,
+            "posX": 2841.67822265625,
+            "posY": -1155.1661376953125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [
@@ -3708,8 +3709,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2881.684814453125,
-            "posY": -1081.833740234375,
+            "posX": 3086.68115234375,
+            "posY": -1066.8321533203125,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [
@@ -3740,8 +3741,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2405.683837890625,
-            "posY": -1325.4990234375,
+            "posX": 2610.68017578125,
+            "posY": -1310.4974365234375,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [
@@ -3767,8 +3768,8 @@
                     "value": ".0005"
                 }
             ],
-            "posX": 2174.016845703125,
-            "posY": -1559.50048828125,
+            "posX": 2379.01318359375,
+            "posY": -1544.4989013671875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -3789,8 +3790,8 @@
                     "value": ".005"
                 }
             ],
-            "posX": 2177.350341796875,
-            "posY": -1691.50048828125,
+            "posX": 2382.3466796875,
+            "posY": -1676.4989013671875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -3819,8 +3820,8 @@
                     "value": "<size=20>Handle Movement joystick</size>\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 1910.1572265625,
-            "posY": -926.6611328125,
+            "posX": 2115.153564453125,
+            "posY": -911.6594848632813,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -3845,8 +3846,8 @@
                     "value": "<size=20>Acceleration Speed</size>"
                 }
             ],
-            "posX": 1911.824462890625,
-            "posY": -1492.32861328125,
+            "posX": 2116.82080078125,
+            "posY": -1477.3270263671875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -3871,8 +3872,8 @@
                     "value": "<size=20>Max Value</size>"
                 }
             ],
-            "posX": 1910.824462890625,
-            "posY": -1622.32861328125,
+            "posX": 2115.82080078125,
+            "posY": -1607.3270263671875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -3893,8 +3894,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 1996.66845703125,
-            "posY": -1202.49951171875,
+            "posX": 2201.664794921875,
+            "posY": -1187.4979248046875,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [
@@ -3920,8 +3921,8 @@
                     "value": "2"
                 }
             ],
-            "posX": 2624.66943359375,
-            "posY": -1657.499755859375,
+            "posX": 2829.665771484375,
+            "posY": -1642.4981689453125,
             "path": "Nodes/DecimalOperationNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -3943,8 +3944,8 @@
                     "value": ""
                 }
             ],
-            "posX": 2403.002685546875,
-            "posY": -1696.16650390625,
+            "posX": 2607.9990234375,
+            "posY": -1681.1649169921875,
             "path": "Nodes/TextToDecimalNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -3965,8 +3966,8 @@
                     "value": "_gamepadlefty"
                 }
             ],
-            "posX": 2404.336181640625,
-            "posY": -1552.8330078125,
+            "posX": 2609.33251953125,
+            "posY": -1537.8314208984375,
             "path": "Nodes/ParamToDecimalNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -3987,8 +3988,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 2835.66943359375,
-            "posY": -1671.166259765625,
+            "posX": 3040.665771484375,
+            "posY": -1656.1646728515625,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -4013,8 +4014,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 3798.34814453125,
-            "posY": -981.1701049804688,
+            "posX": 3756.68115234375,
+            "posY": -1009.5052490234375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [
@@ -4040,8 +4041,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 4018.35009765625,
-            "posY": -984.8375244140625,
+            "posX": 3976.68310546875,
+            "posY": -1013.1726684570313,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [
@@ -4067,8 +4068,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 3800.681640625,
-            "posY": -1140.5035400390625,
+            "posX": 3759.0146484375,
+            "posY": -1168.83837890625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [
@@ -4094,8 +4095,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 4015.681640625,
-            "posY": -1136.8372802734375,
+            "posX": 3974.0146484375,
+            "posY": -1165.172119140625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [
@@ -4121,8 +4122,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 4260.017578125,
-            "posY": -1050.1700439453125,
+            "posX": 4218.3505859375,
+            "posY": -1078.5048828125,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [
@@ -4153,8 +4154,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 3794.68359375,
-            "posY": -1295.1685791015625,
+            "posX": 3753.0166015625,
+            "posY": -1323.50341796875,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [
@@ -4180,8 +4181,8 @@
                     "value": ".01"
                 }
             ],
-            "posX": 3570.683349609375,
-            "posY": -1507.8365478515625,
+            "posX": 3529.016357421875,
+            "posY": -1536.17138671875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4202,8 +4203,8 @@
                     "value": "0.1"
                 }
             ],
-            "posX": 3567.350341796875,
-            "posY": -1633.1697998046875,
+            "posX": 3525.683349609375,
+            "posY": -1661.504638671875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4232,8 +4233,8 @@
                     "value": "<size=20>Handle Movement joystick</size>\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 3288.49072265625,
-            "posY": -878.3306274414063,
+            "posX": 3246.82373046875,
+            "posY": -906.665771484375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4258,8 +4259,8 @@
                     "value": "<size=20>Acceleration Speed</size>"
                 }
             ],
-            "posX": 3290.157958984375,
-            "posY": -1443.9981689453125,
+            "posX": 3248.490966796875,
+            "posY": -1472.3330078125,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4284,8 +4285,8 @@
                     "value": "<size=20>Max Value</size>"
                 }
             ],
-            "posX": 3289.157958984375,
-            "posY": -1573.9981689453125,
+            "posX": 3247.490966796875,
+            "posY": -1602.3330078125,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4306,8 +4307,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 3386.001953125,
-            "posY": -1157.1690673828125,
+            "posX": 3344.3349609375,
+            "posY": -1185.50390625,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [
@@ -4333,8 +4334,8 @@
                     "value": "2"
                 }
             ],
-            "posX": 4003.00244140625,
-            "posY": -1609.1693115234375,
+            "posX": 3961.33544921875,
+            "posY": -1637.504150390625,
             "path": "Nodes/DecimalOperationNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4356,8 +4357,8 @@
                     "value": ""
                 }
             ],
-            "posX": 3781.3359375,
-            "posY": -1632.8360595703125,
+            "posX": 3739.6689453125,
+            "posY": -1661.1708984375,
             "path": "Nodes/TextToDecimalNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4378,8 +4379,8 @@
                     "value": "_gamepadrightx"
                 }
             ],
-            "posX": 3782.66943359375,
-            "posY": -1504.5025634765625,
+            "posX": 3741.00244140625,
+            "posY": -1532.83740234375,
             "path": "Nodes/ParamToDecimalNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4400,8 +4401,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 4207.3359375,
-            "posY": -1637.8358154296875,
+            "posX": 4165.6689453125,
+            "posY": -1666.170654296875,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -4426,8 +4427,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 3772.017822265625,
-            "posY": -87.50387573242188,
+            "posX": 3737.01611328125,
+            "posY": -107.50576782226563,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [
@@ -4453,8 +4454,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 3992.686279296875,
-            "posY": -93.50466918945313,
+            "posX": 3957.6845703125,
+            "posY": -113.50656127929688,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [
@@ -4480,8 +4481,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 3783.684814453125,
-            "posY": -242.83734130859376,
+            "posX": 3748.68310546875,
+            "posY": -262.8392333984375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [
@@ -4507,8 +4508,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 3994.351318359375,
-            "posY": -254.50433349609376,
+            "posX": 3959.349609375,
+            "posY": -274.5062255859375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [
@@ -4534,8 +4535,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 4238.0205078125,
-            "posY": -178.50384521484376,
+            "posX": 4203.0185546875,
+            "posY": -198.5057373046875,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [
@@ -4566,8 +4567,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 3774.353271484375,
-            "posY": -392.8357849121094,
+            "posX": 3739.3515625,
+            "posY": -412.8376770019531,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [
@@ -4593,8 +4594,8 @@
                     "value": ".0005"
                 }
             ],
-            "posX": 3539.019775390625,
-            "posY": -629.5036010742188,
+            "posX": 3504.01806640625,
+            "posY": -649.5054931640625,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4615,8 +4616,8 @@
                     "value": ".005"
                 }
             ],
-            "posX": 3525.686767578125,
-            "posY": -766.5035400390625,
+            "posX": 3490.68505859375,
+            "posY": -786.5054321289063,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4645,8 +4646,8 @@
                     "value": "<size=20>Handle Movement joystick</size>\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 3247.493896484375,
-            "posY": -6.664398193359375,
+            "posX": 3212.4921875,
+            "posY": -26.666290283203126,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4671,8 +4672,8 @@
                     "value": "<size=20>Acceleration Speed</size>"
                 }
             ],
-            "posX": 3260.1611328125,
-            "posY": -567.3319702148438,
+            "posX": 3225.159423828125,
+            "posY": -587.3338623046875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4697,8 +4698,8 @@
                     "value": "<size=20>Max Value</size>"
                 }
             ],
-            "posX": 3259.1611328125,
-            "posY": -697.3319091796875,
+            "posX": 3224.159423828125,
+            "posY": -717.3338012695313,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4719,8 +4720,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 3355.005126953125,
-            "posY": -289.5028381347656,
+            "posX": 3320.00341796875,
+            "posY": -309.5047302246094,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [
@@ -4746,8 +4747,8 @@
                     "value": "2"
                 }
             ],
-            "posX": 3973.005615234375,
-            "posY": -732.5029296875,
+            "posX": 3938.00390625,
+            "posY": -752.5048217773438,
             "path": "Nodes/DecimalOperationNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4769,8 +4770,8 @@
                     "value": ""
                 }
             ],
-            "posX": 3751.339111328125,
-            "posY": -771.169677734375,
+            "posX": 3716.33740234375,
+            "posY": -791.1715698242188,
             "path": "Nodes/TextToDecimalNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4791,8 +4792,8 @@
                     "value": "_gamepadrighty"
                 }
             ],
-            "posX": 3744.672607421875,
-            "posY": -638.8362426757813,
+            "posX": 3709.6708984375,
+            "posY": -658.838134765625,
             "path": "Nodes/ParamToDecimalNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4813,8 +4814,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 4170.671875,
-            "posY": -757.836181640625,
+            "posX": 4135.669921875,
+            "posY": -777.8380737304688,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -4835,8 +4836,8 @@
                     "value": "14"
                 }
             ],
-            "posX": 2754.0087890625,
-            "posY": -2753.998046875,
+            "posX": 1965.6688232421875,
+            "posY": -969.0039672851563,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
@@ -4846,7 +4847,7 @@
                 "28078146-5857-4e6b-aadd-df93f55ce0cc638887471853542872",
                 "6b4216df-f514-413a-9607-0f9ebd2fd1a4638887471853542872"
             ],
-            "headerColor": 0,
+            "headerColor": 6,
             "inputValueSocketIds": [],
             "outputValueSocketIds": []
         },
@@ -4858,8 +4859,8 @@
                     "value": "13"
                 }
             ],
-            "posX": 2262.342041015625,
-            "posY": -2749.66455078125,
+            "posX": 1474.0020751953125,
+            "posY": -964.6704711914063,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
@@ -4869,7 +4870,7 @@
                 "b351b3b4-0192-4e2d-a519-72ffbefc4534638887472022885137",
                 "3358b91a-3772-47a4-b2b5-d36757f5fb11638887472022885137"
             ],
-            "headerColor": 0,
+            "headerColor": 6,
             "inputValueSocketIds": [],
             "outputValueSocketIds": []
         },
@@ -4881,8 +4882,8 @@
                     "value": "12"
                 }
             ],
-            "posX": 2502.675048828125,
-            "posY": -2756.66455078125,
+            "posX": 1714.3350830078125,
+            "posY": -971.6704711914063,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
@@ -4892,7 +4893,7 @@
                 "9b2de44d-dd33-449a-8d8c-d83126cba6ec638887472071495270",
                 "075ea417-8b45-4a6a-a84d-f3e48858f342638887472071495270"
             ],
-            "headerColor": 0,
+            "headerColor": 6,
             "inputValueSocketIds": [],
             "outputValueSocketIds": []
         },
@@ -4908,15 +4909,15 @@
                     "value": "0"
                 }
             ],
-            "posX": 2505.675048828125,
-            "posY": -2958.8310546875,
+            "posX": 1717.3350830078125,
+            "posY": -1173.8369140625,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
                 "5aa2ed82-f0e9-472e-908a-17fc1c3e4c77638887472180147206"
             ],
             "outputSocketIds": [],
-            "headerColor": 0,
+            "headerColor": 5,
             "inputValueSocketIds": [
                 "6d65b21c-b6fe-4a3f-8c7c-e31d4e24a1a8638887472180147206",
                 "f8211dcd-66e6-414e-acd9-9e11e77a010f638887472180147206",
@@ -4940,15 +4941,15 @@
                     "value": "0"
                 }
             ],
-            "posX": 2742.675048828125,
-            "posY": -2959.16455078125,
+            "posX": 1954.3350830078125,
+            "posY": -1174.17041015625,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
                 "cb997b96-8b3e-4cdf-8134-300ae2fd43ec638887472428770934"
             ],
             "outputSocketIds": [],
-            "headerColor": 0,
+            "headerColor": 5,
             "inputValueSocketIds": [
                 "82cf51a1-2987-4bc5-b850-cd939c1d8c7f638887472428770934",
                 "fb3fc84d-23ab-4a6f-bca3-c2c347b8be4f638887472428770934",
@@ -4972,15 +4973,15 @@
                     "value": "0"
                 }
             ],
-            "posX": 2264.008056640625,
-            "posY": -2948.8310546875,
+            "posX": 1475.6680908203125,
+            "posY": -1163.8369140625,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
                 "52ad55c1-5c09-4940-8c2f-a6c8c705a4ef638887472437999404"
             ],
             "outputSocketIds": [],
-            "headerColor": 0,
+            "headerColor": 5,
             "inputValueSocketIds": [
                 "3899ebe8-bb4f-42a4-bfd9-12b054f035f5638887472437999404",
                 "29fe56b4-adf8-43d7-8376-a17b99a70719638887472437999404",
@@ -5249,15 +5250,15 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "612"
+                    "value": "630"
                 },
                 {
                     "key": "sizeY",
-                    "value": "1068"
+                    "value": "1063"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Camera Drone Controller</size>\n<color=#ca6fde>by Lunazera</color>\nJuly 2025 (v1.1) - https://github.com/Lunazera/VNyan-Camera-Controller\n\n▼——————————————— ▼\nControl a camera using keyboard hotkeys or a gamepad.\nThe main things you need to worry about are in the groups to the left and right of this message box.\n\nTo use this, trigger <b>SpawnCamera</b> (or use the websocket to the left) and the camera should swap to the new view. Use your keyboard hotkey controls to move the camera around. If you want to use your gamepad, use the <b>ControlMode</b> toggle.\n\nThere is also a Speed multipler parameter, CamMultiplier, you can use to speed up or slow down movement. On gamepad this is controlled with RB/LB. \n\nThe idea with this was also to get position/rotation transforms for camera's that you could save and use for reference. This was made to control a camera, but you could control <i>any</i> custom object with this. \n\n\n<size=20>Settings</size>\nThe right goup are the Main Settings, which are the custom object node, base speed, acceleration and deacceleration. Make sure it's set to spawn VNyanCam.\n\nThe left node group has toggles and controls to manage the camera.\n\n\n<size=20>Toggles</size>\n- <b>ControlMode</b> (keyboard, gamepad, or nothing)\n- <b>ControlToggle</b> to quickly turn on and off controls\n- <b>ToggleCamera</b> to spawn camera & start controls at default location or destroy it.\n- Triggers to <b>ResetPosition, ResetRotation, and ResetCamera (all settings)\n</b>\n<b>SaveCameraTransform </b>trigger will save the XYZ position and rotation to the text parameter <CameraTransform>\n\n\n<size=20>Controls</size>\n<b>Keyboard:</b>\nSHIFT + WASD = move forward/backward/left/right\nSHIFT + QE = rotate left/right\nSHIFT + RF = move up/down\nCTRL + WS = rotate up/down\nCTRL + RF = twist left/right\n\n<b>Gamepad:</b>\nLeft stick = move forward/backward/left/righ\nRight stick = rotate left/right, move up/down\nRB = Speed Up\nLB = Slow down\nLT/RT = rotate down/up\nDLeft = Reset all\nDUp = Reset position\nDDown = Reset Rotation\nX/Y = Twist"
+                    "value": "<size=30>Camera Drone Controller</size>\n<color=#ca6fde>by Lunazera</color>\nJuly 2025 (v1.2) - https://github.com/Lunazera/VNyan-Camera-Controller\n\n▼——————————————— ▼\nControl a camera using keyboard hotkeys or a gamepad.\nThe main things you need to worry about are in the groups to the left and right of this message box.\n\nTo use this, trigger <b>SpawnCamera</b> (or use the websocket to the left) and the camera should swap to the new view. Use your keyboard hotkey controls to move the camera around. If you want to use your gamepad, use the <b>ControlMode</b> toggle.\n\nChange the default position/rotation nodes on the right to change where the camera spawns/resets to. There is also a Speed multipler parameter, CamMultiplier, you can use to speed up or slow down movement. On gamepad this is controlled with RB/LB. \n\nThe idea with this was also to get position/rotation transforms for camera's that you could save and use for reference. This was made to control a camera, but you could control <i>any</i> custom object with this. \n\n\n<size=20>Settings</size>\nThe right goup are the Main Settings, which are the custom object node, base speed, acceleration and deacceleration. Make sure it's set to spawn VNyanCam.\n\nThe left node group has toggles and controls to manage the camera. If you want to change any of the control hotkeys, you'll need to change them in the node blocks for the gamepad or keyboard inputs to the right\n\n<size=20>Toggles</size>\n- <b>ControlMode</b> (keyboard, gamepad, or nothing)\n- <b>ControlToggle</b> to quickly turn on and off controls\n- <b>ToggleCamera</b> to spawn camera & start controls at default location or destroy it.\n- Triggers to <b>ResetPosition, ResetRotation, and ResetCamera (all settings)\n</b>- <b>SaveCameraTransform </b>trigger will save the XYZ position and rotation to the text parameter <CameraTransform>\n\n\n<size=20>Controls</size>\n<b>Keyboard:</b>\nSHIFT + WASD = move forward/backward/left/right\nSHIFT + QE = rotate left/right\nSHIFT + RF = move up/down\nCTRL + WS = rotate up/down\nCTRL + RF = twist left/right\nSHIFT + 1/2/3 = speed slower/default/faster\n\n<b>Gamepad:</b>\nLeft stick = move forward/backward/left/righ\nRight stick = rotate left/right, move up/down\nRB = Speed Up\nLB = Slow down\nLT/RT = rotate down/up\nDLeft = Reset all\nDUp = Reset position\nDDown = Reset Rotation\nX/Y = Twist"
                 }
             ],
             "posX": -323.3291015625,
@@ -5547,19 +5548,19 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "472"
+                    "value": "438"
                 },
                 {
                     "key": "sizeY",
-                    "value": "153"
+                    "value": "170"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Camera Position & Rotation</size>"
+                    "value": "<size=30>Camera Position & Rotation Defaults</size>\nAdjust these settings to change where the camera spawns and resets to"
                 }
             ],
-            "posX": 1023.0062866210938,
-            "posY": 443.1606140136719,
+            "posX": 1040.00634765625,
+            "posY": 446.1606140136719,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
             "inputSocketIds": [],
@@ -6081,8 +6082,8 @@
                     "value": "338"
                 }
             ],
-            "posX": 5293.49658203125,
-            "posY": -1831.6656494140625,
+            "posX": 5568.498046875,
+            "posY": -1781.6597900390625,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6104,8 +6105,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 4838.82421875,
-            "posY": -1998.99365234375,
+            "posX": 5113.82568359375,
+            "posY": -1948.98779296875,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6128,8 +6129,8 @@
                     "value": "326"
                 }
             ],
-            "posX": 5315.49755859375,
-            "posY": -2528.0,
+            "posX": 5590.4990234375,
+            "posY": -2477.99365234375,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6155,8 +6156,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5528.34814453125,
-            "posY": -1853.1668701171875,
+            "posX": 5803.349609375,
+            "posY": -1803.1610107421875,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6182,8 +6183,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5745.01611328125,
-            "posY": -1854.8343505859375,
+            "posX": 6020.017578125,
+            "posY": -1804.8284912109375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6209,8 +6210,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5536.68115234375,
-            "posY": -2505.49951171875,
+            "posX": 5811.6826171875,
+            "posY": -2455.4931640625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6236,8 +6237,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5749.68212890625,
-            "posY": -2508.5,
+            "posX": 6024.68359375,
+            "posY": -2458.49365234375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6263,8 +6264,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5972.01806640625,
-            "posY": -2435.49951171875,
+            "posX": 6247.01953125,
+            "posY": -2385.4931640625,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6295,8 +6296,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5755.35009765625,
-            "posY": -2050.498046875,
+            "posX": 6030.3515625,
+            "posY": -2000.4921875,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -6322,8 +6323,8 @@
                     "value": ".0001"
                 }
             ],
-            "posX": 5108.01708984375,
-            "posY": -2383.83251953125,
+            "posX": 5383.0185546875,
+            "posY": -2333.826171875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [],
@@ -6344,8 +6345,8 @@
                     "value": ".005"
                 }
             ],
-            "posX": 5104.35009765625,
-            "posY": -2524.83251953125,
+            "posX": 5379.3515625,
+            "posY": -2474.826171875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [],
@@ -6374,8 +6375,8 @@
                     "value": "<size=20>Handle Movement Hotkeys</size>\n\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 4838.4921875,
-            "posY": -1759.9940185546875,
+            "posX": 5113.49365234375,
+            "posY": -1709.9881591796875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [],
@@ -6400,8 +6401,8 @@
                     "value": "<size=20>Acceleration</size>"
                 }
             ],
-            "posX": 4840.1591796875,
-            "posY": -2325.661376953125,
+            "posX": 5115.16064453125,
+            "posY": -2275.6552734375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [],
@@ -6426,8 +6427,8 @@
                     "value": "<size=20>Speed Scale</size>"
                 }
             ],
-            "posX": 4839.1591796875,
-            "posY": -2455.661376953125,
+            "posX": 5114.16064453125,
+            "posY": -2405.6552734375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [],
@@ -6444,8 +6445,8 @@
                     "value": "343"
                 }
             ],
-            "posX": 5280.1630859375,
-            "posY": -926.66748046875,
+            "posX": 5568.49658203125,
+            "posY": -895.0035400390625,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6467,8 +6468,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 4825.49072265625,
-            "posY": -1093.9959716796875,
+            "posX": 5113.82421875,
+            "posY": -1062.33154296875,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6491,8 +6492,8 @@
                     "value": "339"
                 }
             ],
-            "posX": 5299.1640625,
-            "posY": -1616.669189453125,
+            "posX": 5587.49755859375,
+            "posY": -1585.004638671875,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6518,8 +6519,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5515.0146484375,
-            "posY": -948.1685791015625,
+            "posX": 5803.34814453125,
+            "posY": -916.504638671875,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6545,8 +6546,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5739.6826171875,
-            "posY": -950.8360595703125,
+            "posX": 6028.01611328125,
+            "posY": -919.172119140625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6572,8 +6573,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5523.01416015625,
-            "posY": -1597.1688232421875,
+            "posX": 5811.34765625,
+            "posY": -1565.50439453125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6599,8 +6600,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5734.3486328125,
-            "posY": -1600.169189453125,
+            "posX": 6022.68212890625,
+            "posY": -1568.504638671875,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6626,8 +6627,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5960.35107421875,
-            "posY": -1529.835693359375,
+            "posX": 6248.6845703125,
+            "posY": -1498.171142578125,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6658,8 +6659,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 5802.0166015625,
-            "posY": -1168.5008544921875,
+            "posX": 6090.35009765625,
+            "posY": -1136.83642578125,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -6685,8 +6686,8 @@
                     "value": ".001"
                 }
             ],
-            "posX": 5090.68359375,
-            "posY": -1479.8350830078125,
+            "posX": 5379.01708984375,
+            "posY": -1448.170654296875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [],
@@ -6707,8 +6708,8 @@
                     "value": ".02"
                 }
             ],
-            "posX": 5093.0166015625,
-            "posY": -1614.8350830078125,
+            "posX": 5381.35009765625,
+            "posY": -1583.170654296875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [],
@@ -6737,8 +6738,8 @@
                     "value": "<size=20>Handle Movement Hotkeys</size>\n\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 4825.15869140625,
-            "posY": -854.9959106445313,
+            "posX": 5113.4921875,
+            "posY": -823.3319702148438,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [],
@@ -6763,8 +6764,8 @@
                     "value": "<size=20>Acceleration</size>"
                 }
             ],
-            "posX": 4826.826171875,
-            "posY": -1420.66357421875,
+            "posX": 5115.15966796875,
+            "posY": -1388.9990234375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [],
@@ -6789,8 +6790,8 @@
                     "value": "<size=20>Speed Scale</size>"
                 }
             ],
-            "posX": 4825.826171875,
-            "posY": -1550.66357421875,
+            "posX": 5114.15966796875,
+            "posY": -1518.9990234375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [],
@@ -6807,8 +6808,8 @@
                     "value": "595"
                 }
             ],
-            "posX": 6571.8349609375,
-            "posY": -8.337142944335938,
+            "posX": 6858.5048828125,
+            "posY": -5.002166748046875,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -6830,8 +6831,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 6117.162109375,
-            "posY": -175.66552734375,
+            "posX": 6403.83203125,
+            "posY": -172.33050537109376,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -6854,8 +6855,8 @@
                     "value": "599"
                 }
             ],
-            "posX": 6587.50244140625,
-            "posY": -716.6722412109375,
+            "posX": 6874.17236328125,
+            "posY": -713.33740234375,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -6881,8 +6882,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6800.6865234375,
-            "posY": -24.838363647460939,
+            "posX": 7087.3564453125,
+            "posY": -21.503387451171876,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -6908,8 +6909,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7020.3544921875,
-            "posY": -28.505844116210939,
+            "posX": 7307.0244140625,
+            "posY": -25.170867919921876,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -6935,8 +6936,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6814.68603515625,
-            "posY": -675.505126953125,
+            "posX": 7101.35595703125,
+            "posY": -672.1702880859375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -6962,8 +6963,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7026.0205078125,
-            "posY": -681.8388671875,
+            "posX": 7312.6904296875,
+            "posY": -678.5040283203125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -6989,8 +6990,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 7252.02294921875,
-            "posY": -608.171875,
+            "posX": 7538.69287109375,
+            "posY": -604.8370361328125,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -7021,8 +7022,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7012.6884765625,
-            "posY": -237.17031860351563,
+            "posX": 7299.3583984375,
+            "posY": -233.83529663085938,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -7048,8 +7049,8 @@
                     "value": ".01"
                 }
             ],
-            "posX": 6389.35546875,
-            "posY": -563.5047607421875,
+            "posX": 6676.025390625,
+            "posY": -560.169921875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [],
@@ -7070,8 +7071,8 @@
                     "value": ".1"
                 }
             ],
-            "posX": 6382.6884765625,
-            "posY": -701.5047607421875,
+            "posX": 6669.3583984375,
+            "posY": -698.169921875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [],
@@ -7100,8 +7101,8 @@
                     "value": "<size=20>Handle Movement Hotkeys</size>\n\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 6116.830078125,
-            "posY": 63.33445739746094,
+            "posX": 6403.5,
+            "posY": 66.66943359375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [],
@@ -7126,8 +7127,8 @@
                     "value": "<size=20>Acceleration</size>"
                 }
             ],
-            "posX": 6118.49755859375,
-            "posY": -502.3329772949219,
+            "posX": 6405.16748046875,
+            "posY": -498.9979553222656,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [],
@@ -7152,8 +7153,8 @@
                     "value": "<size=20>Speed Scale</size>"
                 }
             ],
-            "posX": 6117.49755859375,
-            "posY": -632.3330078125,
+            "posX": 6404.16748046875,
+            "posY": -628.9981689453125,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [],
@@ -7170,8 +7171,8 @@
                     "value": "325"
                 }
             ],
-            "posX": 6585.83740234375,
-            "posY": -911.670166015625,
+            "posX": 6857.5,
+            "posY": -895.0040893554688,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7193,8 +7194,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 6131.16455078125,
-            "posY": -1078.9984130859375,
+            "posX": 6402.8271484375,
+            "posY": -1062.332275390625,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7217,8 +7218,8 @@
                     "value": "337"
                 }
             ],
-            "posX": 6599.83837890625,
-            "posY": -1606.6715087890625,
+            "posX": 6871.5009765625,
+            "posY": -1590.00537109375,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7244,8 +7245,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6816.68896484375,
-            "posY": -930.17138671875,
+            "posX": 7088.3515625,
+            "posY": -913.5053100585938,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7271,8 +7272,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7036.35693359375,
-            "posY": -929.8388671875,
+            "posX": 7308.01953125,
+            "posY": -913.1727905273438,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7298,8 +7299,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6828.6884765625,
-            "posY": -1578.8375244140625,
+            "posX": 7100.35107421875,
+            "posY": -1562.17138671875,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7325,8 +7326,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7043.3564453125,
-            "posY": -1585.17138671875,
+            "posX": 7315.01904296875,
+            "posY": -1568.505126953125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7352,8 +7353,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 7266.02587890625,
-            "posY": -1523.1710205078125,
+            "posX": 7537.6884765625,
+            "posY": -1506.5048828125,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7384,8 +7385,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7056.69091796875,
-            "posY": -1143.5028076171875,
+            "posX": 7328.353515625,
+            "posY": -1126.836669921875,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -7411,8 +7412,8 @@
                     "value": ".01"
                 }
             ],
-            "posX": 6402.35791015625,
-            "posY": -1461.8372802734375,
+            "posX": 6674.0205078125,
+            "posY": -1445.171142578125,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [],
@@ -7433,8 +7434,8 @@
                     "value": ".05"
                 }
             ],
-            "posX": 6396.69091796875,
-            "posY": -1604.8372802734375,
+            "posX": 6668.353515625,
+            "posY": -1588.171142578125,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [],
@@ -7463,8 +7464,8 @@
                     "value": "<size=20>Handle Movement Hotkeys</size>\n\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 6130.8330078125,
-            "posY": -839.9984130859375,
+            "posX": 6402.49560546875,
+            "posY": -823.3323364257813,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [],
@@ -7489,8 +7490,8 @@
                     "value": "<size=20>Acceleration</size>"
                 }
             ],
-            "posX": 6132.5,
-            "posY": -1405.66552734375,
+            "posX": 6404.16259765625,
+            "posY": -1388.999267578125,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [],
@@ -7515,8 +7516,8 @@
                     "value": "<size=20>Speed Scale</size>"
                 }
             ],
-            "posX": 6131.5,
-            "posY": -1535.66552734375,
+            "posX": 6403.16259765625,
+            "posY": -1518.999267578125,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [],
@@ -7533,8 +7534,8 @@
                     "value": "594"
                 }
             ],
-            "posX": 6584.1689453125,
-            "posY": -1811.6700439453125,
+            "posX": 6857.49853515625,
+            "posY": -1780.0020751953125,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7556,8 +7557,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 6129.49609375,
-            "posY": -1978.9986572265625,
+            "posX": 6402.82568359375,
+            "posY": -1947.3306884765625,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7580,8 +7581,8 @@
                     "value": "582"
                 }
             ],
-            "posX": 6606.169921875,
-            "posY": -2509.00439453125,
+            "posX": 6879.49951171875,
+            "posY": -2477.33642578125,
             "path": "Nodes/FilterHotkeyNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7607,8 +7608,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6824.0205078125,
-            "posY": -1835.1712646484375,
+            "posX": 7097.35009765625,
+            "posY": -1803.5032958984375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7634,8 +7635,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7049.6884765625,
-            "posY": -1839.8387451171875,
+            "posX": 7323.01806640625,
+            "posY": -1808.1707763671875,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7661,8 +7662,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6830.353515625,
-            "posY": -2494.50390625,
+            "posX": 7103.68310546875,
+            "posY": -2462.8359375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7688,8 +7689,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7041.3544921875,
-            "posY": -2488.50439453125,
+            "posX": 7314.68408203125,
+            "posY": -2456.83642578125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7715,8 +7716,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 7264.6904296875,
-            "posY": -2422.50390625,
+            "posX": 7538.02001953125,
+            "posY": -2390.8359375,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7747,8 +7748,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 7030.0224609375,
-            "posY": -2074.50244140625,
+            "posX": 7303.35205078125,
+            "posY": -2042.83447265625,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -7774,8 +7775,8 @@
                     "value": ".01"
                 }
             ],
-            "posX": 6403.689453125,
-            "posY": -2364.8369140625,
+            "posX": 6677.01904296875,
+            "posY": -2333.1689453125,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [],
@@ -7796,8 +7797,8 @@
                     "value": "0.1"
                 }
             ],
-            "posX": 6395.0224609375,
-            "posY": -2504.8369140625,
+            "posX": 6668.35205078125,
+            "posY": -2473.1689453125,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [],
@@ -7826,8 +7827,8 @@
                     "value": "<size=20>Handle Movement Hotkeys</size>\n\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 6129.16455078125,
-            "posY": -1739.9984130859375,
+            "posX": 6402.494140625,
+            "posY": -1708.3304443359375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [],
@@ -7852,8 +7853,8 @@
                     "value": "<size=20>Acceleration</size>"
                 }
             ],
-            "posX": 6130.83203125,
-            "posY": -2305.665771484375,
+            "posX": 6404.16162109375,
+            "posY": -2273.99755859375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [],
@@ -7878,8 +7879,8 @@
                     "value": "<size=20>Speed Scale</size>"
                 }
             ],
-            "posX": 6129.83203125,
-            "posY": -2435.665771484375,
+            "posX": 6403.16162109375,
+            "posY": -2403.99755859375,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [],
@@ -7896,8 +7897,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 1954.15771484375,
-            "posY": -2046.317626953125,
+            "posX": 2037.488525390625,
+            "posY": -2019.647705078125,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -7924,8 +7925,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2648.682373046875,
-            "posY": -1906.4906005859375,
+            "posX": 2732.01318359375,
+            "posY": -1879.8206787109375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -7951,8 +7952,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2865.683837890625,
-            "posY": -1907.8248291015625,
+            "posX": 2949.0146484375,
+            "posY": -1881.1549072265625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -7978,8 +7979,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2658.3486328125,
-            "posY": -2557.15673828125,
+            "posX": 2741.679443359375,
+            "posY": -2530.48681640625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -8005,8 +8006,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2879.68310546875,
-            "posY": -2556.823974609375,
+            "posX": 2963.013916015625,
+            "posY": -2530.154052734375,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -8032,8 +8033,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 3007.685791015625,
-            "posY": -2202.156982421875,
+            "posX": 3091.0166015625,
+            "posY": -2175.487060546875,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -8064,8 +8065,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 2745.684326171875,
-            "posY": -2127.822509765625,
+            "posX": 2829.01513671875,
+            "posY": -2101.152587890625,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -8091,8 +8092,8 @@
                     "value": ".01"
                 }
             ],
-            "posX": 2216.351318359375,
-            "posY": -2448.156494140625,
+            "posX": 2299.68212890625,
+            "posY": -2421.486572265625,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [],
@@ -8113,8 +8114,8 @@
                     "value": ".05"
                 }
             ],
-            "posX": 2224.684326171875,
-            "posY": -2578.156494140625,
+            "posX": 2308.01513671875,
+            "posY": -2551.486572265625,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [],
@@ -8143,8 +8144,8 @@
                     "value": "<size=20>Handle Movement Hotkeys</size>\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 1948.4921875,
-            "posY": -1818.31787109375,
+            "posX": 2031.822998046875,
+            "posY": -1791.64794921875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [],
@@ -8169,8 +8170,8 @@
                     "value": "<size=20>Acceleration</size>"
                 }
             ],
-            "posX": 1950.159423828125,
-            "posY": -2383.9853515625,
+            "posX": 2033.490234375,
+            "posY": -2357.3154296875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [],
@@ -8195,8 +8196,8 @@
                     "value": "<size=20>Speed Scale</size>"
                 }
             ],
-            "posX": 1949.159423828125,
-            "posY": -2513.9853515625,
+            "posX": 2032.490234375,
+            "posY": -2487.3154296875,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [],
@@ -8213,8 +8214,8 @@
                     "value": "4"
                 }
             ],
-            "posX": 2419.66796875,
-            "posY": -1898.1566162109375,
+            "posX": 2502.998779296875,
+            "posY": -1871.4866943359375,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -8236,8 +8237,8 @@
                     "value": "5"
                 }
             ],
-            "posX": 2431.66796875,
-            "posY": -2578.48974609375,
+            "posX": 2514.998779296875,
+            "posY": -2551.81982421875,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -8259,8 +8260,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 3299.158203125,
-            "posY": -2010.65771484375,
+            "posX": 3245.828125,
+            "posY": -2028.98876953125,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8287,8 +8288,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 3988.6826171875,
-            "posY": -1864.8306884765625,
+            "posX": 3935.3525390625,
+            "posY": -1883.1617431640625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8314,8 +8315,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 4210.68359375,
-            "posY": -1866.1646728515625,
+            "posX": 4157.35400390625,
+            "posY": -1884.4957275390625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8341,8 +8342,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 4000.015625,
-            "posY": -2532.163330078125,
+            "posX": 3946.685546875,
+            "posY": -2550.494384765625,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8368,8 +8369,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 4223.01611328125,
-            "posY": -2531.830322265625,
+            "posX": 4169.68603515625,
+            "posY": -2550.161376953125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8395,8 +8396,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 4360.3525390625,
-            "posY": -2183.830322265625,
+            "posX": 4307.02294921875,
+            "posY": -2202.161376953125,
             "path": "Nodes/CallTriggerNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8427,8 +8428,8 @@
                     "value": "0"
                 }
             ],
-            "posX": 4114.6845703125,
-            "posY": -2095.162353515625,
+            "posX": 4061.3544921875,
+            "posY": -2113.493408203125,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8454,8 +8455,8 @@
                     "value": ".01"
                 }
             ],
-            "posX": 3571.3515625,
-            "posY": -2396.496337890625,
+            "posX": 3518.021484375,
+            "posY": -2414.827392578125,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [],
@@ -8476,8 +8477,8 @@
                     "value": ".02"
                 }
             ],
-            "posX": 3559.6845703125,
-            "posY": -2533.163330078125,
+            "posX": 3506.3544921875,
+            "posY": -2551.494384765625,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [],
@@ -8506,8 +8507,8 @@
                     "value": "<size=20>Handle Movement Hotkeys</size>\n\nWe take the set Parameter name, create a \"_+\" and \"_-\" parameters that are either set to 0 or 1.\n\nWhen 1, we ramp to our target speed (+ or -). when 0, we ramp down to 0.\n\nWhen 0 and neither hotkey pressed, we stop calling our SmoothVal trigger"
                 }
             ],
-            "posX": 3288.49267578125,
-            "posY": -1776.6578369140625,
+            "posX": 3235.16259765625,
+            "posY": -1794.9888916015625,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [],
@@ -8532,8 +8533,8 @@
                     "value": "<size=20>Acceleration</size>"
                 }
             ],
-            "posX": 3290.159912109375,
-            "posY": -2342.325439453125,
+            "posX": 3236.829833984375,
+            "posY": -2360.656494140625,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [],
@@ -8558,8 +8559,8 @@
                     "value": "<size=20>Speed Scale</size>"
                 }
             ],
-            "posX": 3289.159912109375,
-            "posY": -2472.325439453125,
+            "posX": 3235.829833984375,
+            "posY": -2490.656494140625,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [],
@@ -8576,8 +8577,8 @@
                     "value": "2"
                 }
             ],
-            "posX": 3759.66845703125,
-            "posY": -1856.4967041015625,
+            "posX": 3706.33837890625,
+            "posY": -1874.8277587890625,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8599,8 +8600,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 3776.66845703125,
-            "posY": -2553.496337890625,
+            "posX": 3723.33837890625,
+            "posY": -2571.827392578125,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -8622,8 +8623,8 @@
                     "value": "6"
                 }
             ],
-            "posX": 2064.341796875,
-            "posY": -3158.6650390625,
+            "posX": 1276.0018310546875,
+            "posY": -1373.6708984375,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
@@ -8633,7 +8634,7 @@
                 "e1aab4ef-4494-4990-b6ed-eba4c3a98c75638889032106591014",
                 "87572f3f-e11d-4f7e-afe1-693b05f4f244638889032106591014"
             ],
-            "headerColor": 0,
+            "headerColor": 6,
             "inputValueSocketIds": [],
             "outputValueSocketIds": []
         },
@@ -8645,8 +8646,8 @@
                     "value": "7"
                 }
             ],
-            "posX": 2078.341796875,
-            "posY": -3308.6650390625,
+            "posX": 1290.0018310546875,
+            "posY": -1523.6708984375,
             "path": "Nodes/FilterGamepadNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
@@ -8656,7 +8657,7 @@
                 "f84289d0-0e3d-47cd-930f-7bf2f2cde23c638889033455927391",
                 "2bdfedfa-cb97-4cd3-850e-0ea135405168638889033455927391"
             ],
-            "headerColor": 0,
+            "headerColor": 6,
             "inputValueSocketIds": [],
             "outputValueSocketIds": []
         },
@@ -8672,8 +8673,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 477.6819763183594,
-            "posY": -423.8302917480469,
+            "posX": 1131.6820068359375,
+            "posY": -437.8302917480469,
             "path": "Nodes/SetTextParamNode",
             "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
             "inputSocketIds": [
@@ -9001,18 +9002,18 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "382"
+                    "value": "364"
                 },
                 {
                     "key": "sizeY",
-                    "value": "146"
+                    "value": "154"
                 },
                 {
                     "key": "message",
                     "value": "<size=30>Settings</size>\nBase movement speed and acceleration. These are scaled by a [CamMultiplier] to speed up or slow down with controls."
                 }
             ],
-            "posX": 361.675048828125,
+            "posX": 359.675048828125,
             "posY": 409.6705017089844,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
@@ -9175,8 +9176,8 @@
                     "value": "CamController_x"
                 }
             ],
-            "posX": 5631.669921875,
-            "posY": -464.0210266113281,
+            "posX": 5929.99462890625,
+            "posY": -460.35321044921877,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [],
@@ -9197,8 +9198,8 @@
                     "value": "CamController_z"
                 }
             ],
-            "posX": 5629.33056640625,
-            "posY": -1426.352783203125,
+            "posX": 5917.6640625,
+            "posY": -1394.688232421875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [],
@@ -9219,8 +9220,8 @@
                     "value": "CamController_y"
                 }
             ],
-            "posX": 5613.66943359375,
-            "posY": -2305.0205078125,
+            "posX": 5888.6708984375,
+            "posY": -2255.01416015625,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [],
@@ -9241,8 +9242,8 @@
                     "value": "CamController_pitch"
                 }
             ],
-            "posX": 6900.337890625,
-            "posY": -526.355224609375,
+            "posX": 7187.0078125,
+            "posY": -523.0203857421875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [],
@@ -9263,8 +9264,8 @@
                     "value": "CamController_yaw"
                 }
             ],
-            "posX": 6912.66748046875,
-            "posY": -1413.6885986328125,
+            "posX": 7184.330078125,
+            "posY": -1397.0224609375,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [],
@@ -9285,8 +9286,8 @@
                     "value": "CamController_roll"
                 }
             ],
-            "posX": 6920.66015625,
-            "posY": -2319.6923828125,
+            "posX": 7193.98974609375,
+            "posY": -2288.0244140625,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [],
@@ -9311,8 +9312,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5231.0224609375,
-            "posY": -265.1695861816406,
+            "posX": 5529.34716796875,
+            "posY": -261.5018310546875,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -9342,8 +9343,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5465.0224609375,
-            "posY": -268.1695861816406,
+            "posX": 5763.34716796875,
+            "posY": -264.50177001953127,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "90e84862-e225-4906-aafe-68558fff9a1d",
             "inputSocketIds": [
@@ -9373,8 +9374,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5308.35302734375,
-            "posY": -1155.5028076171875,
+            "posX": 5596.6865234375,
+            "posY": -1123.83837890625,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -9404,8 +9405,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5549.35302734375,
-            "posY": -1148.8360595703125,
+            "posX": 5837.6865234375,
+            "posY": -1117.171630859375,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "2824887f-17ef-4829-9d48-92edd9dd4932",
             "inputSocketIds": [
@@ -9435,8 +9436,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5300.68994140625,
-            "posY": -2041.8359375,
+            "posX": 5575.69140625,
+            "posY": -1991.830078125,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -9466,8 +9467,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 5519.68994140625,
-            "posY": -2037.8359375,
+            "posX": 5794.69140625,
+            "posY": -1987.830078125,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
             "inputSocketIds": [
@@ -9497,8 +9498,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6554.3544921875,
-            "posY": -235.17105102539063,
+            "posX": 6841.0244140625,
+            "posY": -231.83602905273438,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -9528,8 +9529,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6777.3544921875,
-            "posY": -233.17105102539063,
+            "posX": 7064.0244140625,
+            "posY": -229.83602905273438,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
             "inputSocketIds": [
@@ -9559,8 +9560,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6568.68505859375,
-            "posY": -1138.5042724609375,
+            "posX": 6840.34765625,
+            "posY": -1121.838134765625,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -9590,8 +9591,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6817.68505859375,
-            "posY": -1145.5042724609375,
+            "posX": 7089.34765625,
+            "posY": -1128.838134765625,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
             "inputSocketIds": [
@@ -9621,8 +9622,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6543.6865234375,
-            "posY": -2062.83544921875,
+            "posX": 6817.01611328125,
+            "posY": -2031.16748046875,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -9652,8 +9653,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 6789.6865234375,
-            "posY": -2064.83544921875,
+            "posX": 7063.01611328125,
+            "posY": -2033.16748046875,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "84e33667-cb6a-4c63-91ee-e0c042205061",
             "inputSocketIds": [
@@ -9679,8 +9680,8 @@
                     "value": "CamController_y"
                 }
             ],
-            "posX": 4013.66552734375,
-            "posY": -412.0011901855469,
+            "posX": 3978.663818359375,
+            "posY": -432.0030822753906,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "aace614f-af92-4884-86be-0998fda49c27",
             "inputSocketIds": [],
@@ -9701,8 +9702,8 @@
                     "value": "CamController_pitch"
                 }
             ],
-            "posX": 3774.6669921875,
-            "posY": -2405.687255859375,
+            "posX": 3721.3369140625,
+            "posY": -2424.018310546875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [],
@@ -9727,8 +9728,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 3621.6845703125,
-            "posY": -2085.162353515625,
+            "posX": 3568.3544921875,
+            "posY": -2103.493408203125,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -9758,8 +9759,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 3877.6845703125,
-            "posY": -2081.162353515625,
+            "posX": 3824.3544921875,
+            "posY": -2099.493408203125,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
             "inputSocketIds": [
@@ -9785,8 +9786,8 @@
                     "value": "CamController_roll"
                 }
             ],
-            "posX": 2429.999755859375,
-            "posY": -2431.680419921875,
+            "posX": 2513.33056640625,
+            "posY": -2405.010498046875,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [],
@@ -9811,8 +9812,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2266.35107421875,
-            "posY": -2122.489013671875,
+            "posX": 2349.681884765625,
+            "posY": -2095.819091796875,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -9842,8 +9843,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 2517.017578125,
-            "posY": -2124.156005859375,
+            "posX": 2600.348388671875,
+            "posY": -2097.486083984375,
             "path": "Nodes/FilterParamNode",
             "ownerBlockId": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
             "inputSocketIds": [
@@ -9869,8 +9870,8 @@
                     "value": "CamController_z"
                 }
             ],
-            "posX": 2620.331298828125,
-            "posY": -1330.333984375,
+            "posX": 2825.32763671875,
+            "posY": -1315.3323974609375,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
             "inputSocketIds": [],
@@ -9891,8 +9892,8 @@
                     "value": "CamController_yaw"
                 }
             ],
-            "posX": 4036.666259765625,
-            "posY": -1289.6883544921875,
+            "posX": 3994.999267578125,
+            "posY": -1318.023193359375,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
             "inputSocketIds": [],
@@ -9913,8 +9914,8 @@
                     "value": "CamController_x"
                 }
             ],
-            "posX": 2640.0029296875,
-            "posY": -417.6876220703125,
+            "posX": 2833.33642578125,
+            "posY": -414.35479736328127,
             "path": "Nodes/ConvertToTextNode",
             "ownerBlockId": "b7dc3b36-c488-4ac7-b752-54e858976741",
             "inputSocketIds": [],
@@ -9935,8 +9936,8 @@
                     "value": "4"
                 }
             ],
-            "posX": 1945.8326416015625,
-            "posY": -2696.340576171875,
+            "posX": 1171.49267578125,
+            "posY": -1144.346435546875,
             "path": "Nodes/OrderedFlexNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
@@ -9948,7 +9949,7 @@
                 "ac9648e3-8a17-4f28-b076-23349f1ff531638889707474861340",
                 "75416586-4573-4ceb-9a22-3d212bf039ab638889707474861340"
             ],
-            "headerColor": 6,
+            "headerColor": 7,
             "inputValueSocketIds": [],
             "outputValueSocketIds": []
         },
@@ -9964,15 +9965,15 @@
                     "value": "1"
                 }
             ],
-            "posX": 2322.84619140625,
-            "posY": -3495.01025390625,
+            "posX": 1537.5062255859375,
+            "posY": -1712.016357421875,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
                 "732b27e9-328d-4439-bf22-e1e47e11fbcb638889709418973638"
             ],
             "outputSocketIds": [],
-            "headerColor": 0,
+            "headerColor": 7,
             "inputValueSocketIds": [
                 "0b1c0106-981e-4868-96b7-9bafb43767d2638889709418973638",
                 "32d8dd14-fbe2-45c1-83e1-ce5791e45ef5638889709418973638"
@@ -9988,18 +9989,18 @@
                 },
                 {
                     "key": "value",
-                    "value": "0.5"
+                    "value": "[CamSlow]"
                 }
             ],
-            "posX": 2325.84619140625,
-            "posY": -3182.01025390625,
+            "posX": 1537.5062255859375,
+            "posY": -1393.682861328125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
                 "ee3e875a-a141-4b52-a591-6799b0f47b52638889709708990007"
             ],
             "outputSocketIds": [],
-            "headerColor": 0,
+            "headerColor": 7,
             "inputValueSocketIds": [
                 "605e5ec6-8b62-4683-9c32-8c2415a63ad1638889709708990007",
                 "6abc367b-145f-41a3-93a9-8d7088ea87a2638889709708990007"
@@ -10015,18 +10016,18 @@
                 },
                 {
                     "key": "value",
-                    "value": "4"
+                    "value": "[CamFast]"
                 }
             ],
-            "posX": 2328.84619140625,
-            "posY": -3338.01025390625,
+            "posX": 1540.5062255859375,
+            "posY": -1553.01611328125,
             "path": "Nodes/SetParamNode",
             "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
             "inputSocketIds": [
                 "e4741cd2-bc35-46d5-88d1-beefa52fd087638889709814718852"
             ],
             "outputSocketIds": [],
-            "headerColor": 0,
+            "headerColor": 7,
             "inputValueSocketIds": [
                 "4df027b2-f30e-4df5-b234-4f1844876f4f638889709814718852",
                 "9a974859-77c5-4258-8241-71102fc3c942638889709814718852"
@@ -10036,8 +10037,8 @@
         {
             "id": "8c9edbe7-9f6c-472a-b18d-7cae8d0f4cba",
             "values": [],
-            "posX": 5039.83349609375,
-            "posY": 1981.005615234375,
+            "posX": -1903.5,
+            "posY": -1825.6622314453125,
             "path": "Nodes/Vector3ToDecimalNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10060,8 +10061,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 5246.166015625,
-            "posY": 2063.672119140625,
+            "posX": -1697.16748046875,
+            "posY": -1742.9957275390625,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10082,8 +10083,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 5248.166015625,
-            "posY": 1928.672119140625,
+            "posX": -1695.16748046875,
+            "posY": -1877.9957275390625,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10104,8 +10105,8 @@
                     "value": "3"
                 }
             ],
-            "posX": 5246.166015625,
-            "posY": 1789.672607421875,
+            "posX": -1697.16748046875,
+            "posY": -2016.9951171875,
             "path": "Nodes/DecimalToTextNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10130,8 +10131,8 @@
                     "value": ","
                 }
             ],
-            "posX": 5454.16650390625,
-            "posY": 2056.338623046875,
+            "posX": -1489.1669921875,
+            "posY": -1750.3292236328125,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10157,8 +10158,8 @@
                     "value": ","
                 }
             ],
-            "posX": 5452.1669921875,
-            "posY": 1885.672119140625,
+            "posX": -1491.16650390625,
+            "posY": -1920.99560546875,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10184,8 +10185,8 @@
                     "value": ""
                 }
             ],
-            "posX": 5651.8330078125,
-            "posY": 1987.005615234375,
+            "posX": -1291.50048828125,
+            "posY": -1819.6622314453125,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10211,8 +10212,8 @@
                     "value": ""
                 }
             ],
-            "posX": 5850.4990234375,
-            "posY": 1871.339111328125,
+            "posX": -1092.83447265625,
+            "posY": -1935.32861328125,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10238,8 +10239,8 @@
                     "value": ""
                 }
             ],
-            "posX": 6067.4990234375,
-            "posY": 2221.339599609375,
+            "posX": -875.83447265625,
+            "posY": -1585.3282470703125,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10265,8 +10266,8 @@
                     "value": ""
                 }
             ],
-            "posX": 6114.4990234375,
-            "posY": 2037.339111328125,
+            "posX": -828.83447265625,
+            "posY": -1769.3287353515625,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10292,8 +10293,8 @@
                     "value": ""
                 }
             ],
-            "posX": 6059.4990234375,
-            "posY": 1848.339111328125,
+            "posX": -883.83447265625,
+            "posY": -1958.328857421875,
             "path": "Nodes/TextConcatNode",
             "ownerBlockId": "053b494b-becf-4c98-976c-26ee1a816409",
             "inputSocketIds": [],
@@ -10312,19 +10313,19 @@
             "values": [
                 {
                     "key": "sizeX",
-                    "value": "619"
+                    "value": "414"
                 },
                 {
                     "key": "sizeY",
-                    "value": "130"
+                    "value": "129"
                 },
                 {
                     "key": "message",
-                    "value": "<size=30>Default Settings</size>\nCameraControlMode = 1 -> set for Keyboard (make 2 if you want to default to gamepad)\nCameraControlToggle = 1 -> set for controls to be active"
+                    "value": "<size=30>Default Settings</size>\nCameraControlMode - 1 = Keyboard, 2 = Gamepad\nCameraControlToggle - 1 = Controls active, 0 = controls off"
                 }
             ],
-            "posX": 323.00640869140627,
-            "posY": -193.50613403320313,
+            "posX": 1031.00634765625,
+            "posY": -220.50613403320313,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
             "inputSocketIds": [],
@@ -10377,8 +10378,8 @@
                     "value": "1"
                 }
             ],
-            "posX": 773.0153198242188,
-            "posY": -418.4969482421875,
+            "posX": 1376.0152587890625,
+            "posY": -434.4969482421875,
             "path": "Nodes/SetTextParamNode",
             "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
             "inputSocketIds": [
@@ -10462,77 +10463,14 @@
                     "value": "<size=25>Control Toggle\n1 = On\n2 = Off"
                 }
             ],
-            "posX": 656.0012817382813,
-            "posY": -525.8244018554688,
+            "posX": 1266.001220703125,
+            "posY": -531.8244018554688,
             "path": "Nodes/MessageBoxNode",
             "ownerBlockId": "",
             "inputSocketIds": [],
             "outputSocketIds": [],
             "headerColor": 6,
             "inputValueSocketIds": [],
-            "outputValueSocketIds": []
-        },
-        {
-            "id": "4c863766-7606-47e0-813d-936185ada873",
-            "values": [
-                {
-                    "key": "paramName",
-                    "value": "test"
-                },
-                {
-                    "key": "value1",
-                    "value": "[test]"
-                },
-                {
-                    "key": "value2",
-                    "value": "1"
-                },
-                {
-                    "key": "operation",
-                    "value": "0"
-                }
-            ],
-            "posX": 7694.66796875,
-            "posY": 1528.6666259765625,
-            "path": "Nodes/ParamOpNode",
-            "ownerBlockId": "",
-            "inputSocketIds": [
-                "0a222dbe-ab46-408c-8e09-bb2d0e668514638890570869031856"
-            ],
-            "outputSocketIds": [],
-            "headerColor": 0,
-            "inputValueSocketIds": [
-                "39da5087-6a35-4706-b7f5-096bb8e39735638890570869031856",
-                "8d1991af-d377-433d-90b2-013638d20297638890570869031856",
-                "4c68e16d-65b7-46ea-8f4c-126b2ce0b2be638890570869031856"
-            ],
-            "outputValueSocketIds": []
-        },
-        {
-            "id": "9880bfb5-e4b5-4b7f-830c-c910aee392a3",
-            "values": [
-                {
-                    "key": "paramName",
-                    "value": "test2"
-                },
-                {
-                    "key": "value",
-                    "value": ""
-                }
-            ],
-            "posX": 7631.9970703125,
-            "posY": 975.334228515625,
-            "path": "Nodes/SetParamNode",
-            "ownerBlockId": "",
-            "inputSocketIds": [
-                "72bb78ac-40d2-409d-a394-2eeb5b8e3cc3638890571885225805"
-            ],
-            "outputSocketIds": [],
-            "headerColor": 0,
-            "inputValueSocketIds": [
-                "bded765d-e7f4-4c9b-937e-a3045c5b64d4638890571885225805",
-                "38e2ec69-7eb8-4edc-a423-52ed14d5b78c638890571885225805"
-            ],
             "outputValueSocketIds": []
         },
         {
@@ -10561,6 +10499,381 @@
                 "b5fd5425-dac7-460d-9cde-6c59fe0d57b1638890573693086126"
             ],
             "outputValueSocketIds": []
+        },
+        {
+            "id": "efdaa720-a566-4dde-b0f8-5701ace8dfe7",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "238"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "102"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=30>Speed Up -></size>"
+                }
+            ],
+            "posX": 315.675048828125,
+            "posY": -211.6627197265625,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "1dc6efb7-c8a5-460e-b35e-fb3710bf0cd5",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "238"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "102"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=30>Slow Down -></size>"
+                }
+            ],
+            "posX": 316.675048828125,
+            "posY": -359.6627197265625,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "087693da-e17b-4cb6-b04b-9af6e84bed62",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "CamFast"
+                },
+                {
+                    "key": "value",
+                    "value": ""
+                }
+            ],
+            "posX": 1434.6678466796875,
+            "posY": 982.9986572265625,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "7d8aaa3a-751a-42d1-bc77-57e8708ea96e",
+            "inputSocketIds": [
+                "f90b2b22-6077-40c1-b971-09dbdc746c42638891541062785328"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [
+                "ed11b9e0-50db-4bf7-908d-221cacf11e4d638891541062785328",
+                "a51efb0a-02d6-4c70-87a6-da4b39c338f0638891541062785328"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "b1aec01e-1107-4e23-ae4b-68e1bda50588",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "CamSlow"
+                },
+                {
+                    "key": "value",
+                    "value": ""
+                }
+            ],
+            "posX": 1653.6678466796875,
+            "posY": 992.9986572265625,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "7d8aaa3a-751a-42d1-bc77-57e8708ea96e",
+            "inputSocketIds": [
+                "99776255-cd91-4c57-b790-dfeb37410bb5638891541132673282"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [
+                "3abacf96-f3d9-433c-9443-a6b70d875bfa638891541132673282",
+                "d5618bbd-7b2d-41bb-b1dd-6cb7c3bf91a2638891541132673282"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "0ca0f711-ffd8-4a50-9b2d-8f28e2d134e5",
+            "values": [
+                {
+                    "key": "text",
+                    "value": "2"
+                }
+            ],
+            "posX": 656.6741943359375,
+            "posY": -262.33831787109377,
+            "path": "Nodes/TextToDecimalNode",
+            "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [
+                "4cb9f999-2236-4828-8ea9-4422597588bf638891541318718205"
+            ],
+            "outputValueSocketIds": [
+                "587d54f1-a50f-4813-820a-0433962d048f638891541318718205"
+            ]
+        },
+        {
+            "id": "c3cd85b2-ffaf-4211-9fa1-e10347f92b98",
+            "values": [
+                {
+                    "key": "text",
+                    "value": "0.5"
+                }
+            ],
+            "posX": 661.6744384765625,
+            "posY": -412.33831787109377,
+            "path": "Nodes/TextToDecimalNode",
+            "ownerBlockId": "e0e636c4-99dd-400c-9cf4-5f8384606703",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [
+                "f0768559-c118-4248-bd55-2c488d607fd5638891541339448475"
+            ],
+            "outputValueSocketIds": [
+                "3f1dba6d-a697-4aa7-892a-af0d45501747638891541339448475"
+            ]
+        },
+        {
+            "id": "c1f1be20-3e0c-4860-a51b-f55da1b7e55a",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "170"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "220"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Extra Gamepad Inputs</size>\nI set DPad buttons to reset the camera, and LB/RB to set CAmMultiplier to either slow or fast respectively."
+                }
+            ],
+            "posX": 1170.4993896484375,
+            "posY": -913.5012817382813,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "a6320927-8c7f-4d42-ac55-e0f6d08b61b6",
+            "values": [
+                {
+                    "key": "hotkey",
+                    "value": "306"
+                }
+            ],
+            "posX": 4732.16748046875,
+            "posY": -1071.171630859375,
+            "path": "Nodes/FilterHotkeyNode",
+            "ownerBlockId": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "inputSocketIds": [
+                "5f42428a-372f-43ac-8267-318369330f98638891545642996334"
+            ],
+            "outputSocketIds": [
+                "f49bd77d-b432-4759-868a-302e96f2af38638891545642996334",
+                "c9d109d8-3e08-49e6-8529-214a7ece217a638891545642996334"
+            ],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "ee207d15-3b75-4d2f-b78d-93d8388261c7",
+            "values": [
+                {
+                    "key": "opts",
+                    "value": "2"
+                }
+            ],
+            "posX": 4412.498046875,
+            "posY": -1142.33544921875,
+            "path": "Nodes/OrderedFlexNode",
+            "ownerBlockId": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "inputSocketIds": [
+                "65bce6f4-1717-4451-b1a7-3a9f3d85334c638891545737211745"
+            ],
+            "outputSocketIds": [
+                "4297ebb5-8626-4c88-84a8-4c7146cdb7e9638891545737211745",
+                "79e92d44-0120-404f-a8b1-621c1ca72507638891545737211745"
+            ],
+            "headerColor": 7,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "d8d1f49c-a5fb-4fb5-9cab-6f90a7ee4eac",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "CamMultiplier"
+                },
+                {
+                    "key": "value",
+                    "value": "1"
+                }
+            ],
+            "posX": 4967.49951171875,
+            "posY": -1090.1728515625,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "inputSocketIds": [
+                "4004e123-73d4-436c-b194-31675e005ca5638891545890150568"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "83fa80bf-6a0f-417e-a357-0f4a84e6c569638891545890150568",
+                "5430e38e-18c7-4905-ad65-949bc3c2a421638891545890150568"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "f74506b2-780c-4966-9e44-ab83f30b7dd6",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "CamMultiplier"
+                },
+                {
+                    "key": "value",
+                    "value": "[CamFast]"
+                }
+            ],
+            "posX": 4968.49951171875,
+            "posY": -1241.1728515625,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "inputSocketIds": [
+                "300cb721-a11d-4147-a00d-8b3ca71518ec638891546044364118"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "9a0567d3-98d8-4a05-9621-e21220530994638891546044364118",
+                "662dd430-cb94-48ca-b3c7-27bb5823b3dc638891546044364118"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "0485d266-92fe-47c7-a0bb-82ca342c0d33",
+            "values": [
+                {
+                    "key": "hotkey",
+                    "value": "307"
+                }
+            ],
+            "posX": 4736.16748046875,
+            "posY": -1223.171630859375,
+            "path": "Nodes/FilterHotkeyNode",
+            "ownerBlockId": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "inputSocketIds": [
+                "3c82cbca-adc4-4ce3-9b35-582bcd0f4026638891546068266736"
+            ],
+            "outputSocketIds": [
+                "79e1d166-4f2f-4b17-b92d-9aaae11699a2638891546068266736",
+                "550444bc-cf31-4ebe-9f0f-66d70cbeae1d638891546068266736"
+            ],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "97e81a85-1301-4cab-a70c-ece595c94a9b",
+            "values": [
+                {
+                    "key": "hotkey",
+                    "value": "305"
+                }
+            ],
+            "posX": 4729.16748046875,
+            "posY": -943.1718139648438,
+            "path": "Nodes/FilterHotkeyNode",
+            "ownerBlockId": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "inputSocketIds": [
+                "35c69fc5-efbd-4244-8aa2-80e004072548638891546480767677"
+            ],
+            "outputSocketIds": [
+                "4d722c03-5340-4a11-b23f-0b9cf04416a8638891546480767677",
+                "37f72850-ec42-4200-85ee-0d10f5ab0556638891546480767677"
+            ],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "bf70df57-4581-4e74-a19b-a61a44179cb3",
+            "values": [
+                {
+                    "key": "paramName",
+                    "value": "CamMultiplier"
+                },
+                {
+                    "key": "value",
+                    "value": "[CamSlow]"
+                }
+            ],
+            "posX": 4974.49951171875,
+            "posY": -938.1730346679688,
+            "path": "Nodes/SetParamNode",
+            "ownerBlockId": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "inputSocketIds": [
+                "873da3a7-b260-474d-83a4-5db11d339310638891546581593733"
+            ],
+            "outputSocketIds": [],
+            "headerColor": 7,
+            "inputValueSocketIds": [
+                "f236ac59-edb6-4179-809a-456148398124638891546581593733",
+                "b86cd3d3-60aa-4b21-a64a-99ae319d36bc638891546581593733"
+            ],
+            "outputValueSocketIds": []
+        },
+        {
+            "id": "eeaf2116-13f9-442f-87a7-0d2a8a224a1b",
+            "values": [
+                {
+                    "key": "sizeX",
+                    "value": "199"
+                },
+                {
+                    "key": "sizeY",
+                    "value": "246"
+                },
+                {
+                    "key": "message",
+                    "value": "<size=20>Extra Keyboard Controls</size>\nHotkeys to set different speeds."
+                }
+            ],
+            "posX": 4409.837890625,
+            "posY": -872.507080078125,
+            "path": "Nodes/MessageBoxNode",
+            "ownerBlockId": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "inputSocketIds": [],
+            "outputSocketIds": [],
+            "headerColor": 6,
+            "inputValueSocketIds": [],
+            "outputValueSocketIds": []
         }
     ],
     "blocks": [
@@ -10582,7 +10895,7 @@
             "sizeY": 1308.289306640625,
             "title": "Smooth Motion in one axis",
             "headerColor": 2,
-            "isLocked": false
+            "isLocked": true
         },
         {
             "id": "5c30f5c1-e829-4324-bb9e-e3824d76dd10",
@@ -10596,13 +10909,13 @@
         },
         {
             "id": "90e84862-e225-4906-aafe-68558fff9a1d",
-            "posX": 4807.8359375,
-            "posY": 88.6630859375,
+            "posX": 5106.169921875,
+            "posY": 92.330078125,
             "sizeX": 1271.1888427734375,
             "sizeY": 869.7654418945313,
             "title": "Left/Right",
             "headerColor": 6,
-            "isLocked": false
+            "isLocked": true
         },
         {
             "id": "7a08a5fe-2d43-421e-a8e0-8209b1156bf9",
@@ -10616,8 +10929,8 @@
         },
         {
             "id": "b7dc3b36-c488-4ac7-b752-54e858976741",
-            "posX": 1904.169921875,
-            "posY": 11.6611328125,
+            "posX": 2097.5029296875,
+            "posY": 14.994140625,
             "sizeX": 1101.5216064453125,
             "sizeY": 879.4321899414063,
             "title": "Left/Right",
@@ -10626,8 +10939,8 @@
         },
         {
             "id": "efa9852a-8d50-4a8c-b6d7-fcbaea0fdf26",
-            "posX": 1885.8359375,
-            "posY": -886.671875,
+            "posX": 2090.8359375,
+            "posY": -871.671875,
             "sizeX": 1119.8551025390625,
             "sizeY": 879.4322509765625,
             "title": "Forward/Backward (W/S)",
@@ -10636,8 +10949,8 @@
         },
         {
             "id": "f8436ec7-fec7-4791-a7ce-71cbba54d161",
-            "posX": 3270.8359375,
-            "posY": -843.3388671875,
+            "posX": 3229.1689453125,
+            "posY": -871.671875,
             "sizeX": 1104.8548583984375,
             "sizeY": 866.098876953125,
             "title": "Rotate Yaw (left/right)",
@@ -10646,8 +10959,8 @@
         },
         {
             "id": "aace614f-af92-4884-86be-0998fda49c27",
-            "posX": 3240.8369140625,
-            "posY": 35.328125,
+            "posX": 3205.8369140625,
+            "posY": 15.328125,
             "sizeX": 1129.8551025390625,
             "sizeY": 872.7655029296875,
             "title": "Up/Down",
@@ -10656,8 +10969,8 @@
         },
         {
             "id": "a58ad011-2df2-4adf-be1e-6ed69ba4be03",
-            "posX": 1937.337890625,
-            "posY": -2653.6640625,
+            "posX": 1149.0048828125,
+            "posY": -868.6640625,
             "sizeX": 926.6666259765625,
             "sizeY": 931.2667236328125,
             "title": "Extra Gamepad Controls",
@@ -10666,8 +10979,8 @@
         },
         {
             "id": "053b494b-becf-4c98-976c-26ee1a816409",
-            "posX": 4693.833984375,
-            "posY": 2593.19921875,
+            "posX": -2249.5,
+            "posY": -1213.4677734375,
             "sizeX": 1807.330322265625,
             "sizeY": 893.7960815429688,
             "title": "Block",
@@ -10706,8 +11019,8 @@
         },
         {
             "id": "f61da6a0-c05c-4119-88fe-8122b89f15c5",
-            "posX": 4831.16796875,
-            "posY": -1726.669921875,
+            "posX": 5106.16796875,
+            "posY": -1676.669921875,
             "sizeX": 1271.1888427734375,
             "sizeY": 869.7654418945313,
             "title": "Up/Down (R/F)",
@@ -10716,8 +11029,8 @@
         },
         {
             "id": "2824887f-17ef-4829-9d48-92edd9dd4932",
-            "posX": 4815.837890625,
-            "posY": -821.669921875,
+            "posX": 5104.171875,
+            "posY": -790.0029296875,
             "sizeX": 1271.1888427734375,
             "sizeY": 869.7654418945313,
             "title": "Forward/Backward (W/S)",
@@ -10726,8 +11039,8 @@
         },
         {
             "id": "dd7ce67b-33e9-41d9-89b0-222f0f63fe38",
-            "posX": 6107.50390625,
-            "posY": 96.6630859375,
+            "posX": 6394.169921875,
+            "posY": 99.99609375,
             "sizeX": 1270.1888427734375,
             "sizeY": 877.7654418945313,
             "title": "Rotate Pitch (up/down)",
@@ -10736,8 +11049,8 @@
         },
         {
             "id": "f33a2137-a027-46e8-9f8c-098c782f0bf6",
-            "posX": 6121.50390625,
-            "posY": -806.669921875,
+            "posX": 6393.171875,
+            "posY": -790.0029296875,
             "sizeX": 1271.1888427734375,
             "sizeY": 869.7654418945313,
             "title": "Rotate Yaw (left/right)",
@@ -10746,8 +11059,8 @@
         },
         {
             "id": "84e33667-cb6a-4c63-91ee-e0c042205061",
-            "posX": 6119.8359375,
-            "posY": -1706.6689453125,
+            "posX": 6393.169921875,
+            "posY": -1675.001953125,
             "sizeX": 1271.1888427734375,
             "sizeY": 869.7654418945313,
             "title": "Rotate Roll (twist)",
@@ -10756,8 +11069,8 @@
         },
         {
             "id": "e0b2394d-fb92-4e9b-88bd-a528f63bc03f",
-            "posX": 1939.169921875,
-            "posY": -1781.00390625,
+            "posX": 2022.50390625,
+            "posY": -1754.337890625,
             "sizeX": 1191.1888427734375,
             "sizeY": 871.4321899414063,
             "title": "Rotate Roll",
@@ -10766,8 +11079,8 @@
         },
         {
             "id": "a6fcc1da-c5d3-47ac-b568-b83b754d409c",
-            "posX": 3279.169921875,
-            "posY": -1743.3359375,
+            "posX": 3225.8359375,
+            "posY": -1761.669921875,
             "sizeX": 1214.5223388671875,
             "sizeY": 871.4321899414063,
             "title": "Rotate Pitch",
@@ -10778,10 +11091,20 @@
             "id": "7d8aaa3a-751a-42d1-bc77-57e8708ea96e",
             "posX": 1147.66796875,
             "posY": 1713.8232421875,
-            "sizeX": 615.000244140625,
-            "sizeY": 695.2666015625,
+            "sizeX": 623.3336181640625,
+            "sizeY": 808.93359375,
             "title": "Apply Settings",
             "headerColor": 7,
+            "isLocked": true
+        },
+        {
+            "id": "b77ee905-c4d5-42cc-9a21-4508f1b517e5",
+            "posX": 4399.837890625,
+            "posY": -827.005859375,
+            "sizeX": 688.33349609375,
+            "sizeY": 500.26666259765627,
+            "title": "Block",
+            "headerColor": 6,
             "isLocked": true
         }
     ],
@@ -11432,11 +11755,6 @@
             "inputSocketId": "e1fe0c33-18e2-4cd1-ae4c-c820baebb13c638889020635951560"
         },
         {
-            "id": "aa4a3c75-0b18-4f57-8203-58f999258eed",
-            "outputSocketId": "438d8b04-b132-4371-86db-59d5def3cb6e638887490707289699",
-            "inputSocketId": "8fcffe83-8610-44c7-886f-24370a3b2331638889020245475868"
-        },
-        {
             "id": "50b56ee5-5876-4e77-a8f1-6505bd1ce267",
             "outputSocketId": "bb8a8f8e-765b-44d2-9b19-5e862bff081c638889022627606698",
             "inputSocketId": "06c1626f-3430-4f36-886b-6000298d5697638889022627575698"
@@ -11475,11 +11793,6 @@
             "id": "f9aaa545-98af-4c0c-b62f-c0215753bead",
             "outputSocketId": "db47bd93-4442-4204-b754-4138573e2c17638889022627865621",
             "inputSocketId": "f69d4cc3-0ff2-49e7-bb28-e807cf4b53e2638889022627803678"
-        },
-        {
-            "id": "03e50877-b240-4905-ba8b-fd3a35e1b019",
-            "outputSocketId": "07192a89-bc29-4eac-9884-3789e55f812c638887490707289699",
-            "inputSocketId": "9c8329bf-bf76-4cfd-b1f9-460f903edb3e638889022627606698"
         },
         {
             "id": "04bd87df-6864-4bab-b814-c4123f63369f",
@@ -11522,11 +11835,6 @@
             "inputSocketId": "82a57d98-e072-49fe-8eed-4d2bc96e4f27638889023129002616"
         },
         {
-            "id": "4b56ede1-880a-4607-887b-3d4f9714d7f9",
-            "outputSocketId": "ca1456cf-f211-459a-b6b9-6e567bd7b8d4638887490707289699",
-            "inputSocketId": "d4dfea5a-7316-4aeb-876b-57c0b9dcb4b5638889023128680230"
-        },
-        {
             "id": "76e3515f-100d-46ea-a026-cb47ea3cb228",
             "outputSocketId": "25837653-4135-4e34-97ee-bc967e2c8894638889023547410486",
             "inputSocketId": "685bc269-f25a-4443-b4ac-958324dd6c8c638889023547373442"
@@ -11565,11 +11873,6 @@
             "id": "a84fe36e-c316-4cf8-8afa-f06528ec3681",
             "outputSocketId": "ec21c9a6-77b9-45d6-9a3c-4bd58e5f01b3638889023547718784",
             "inputSocketId": "05bb74d0-712e-4aec-b1f3-205c6870d0b2638889023547640895"
-        },
-        {
-            "id": "3388462d-5e00-4919-b8e5-3ced30ddf5b7",
-            "outputSocketId": "3487d23e-6e13-4980-b49c-bdd163a1c7db638887490707289699",
-            "inputSocketId": "63c7d384-700b-47e6-ab97-8058da58ea8f638889023547410486"
         },
         {
             "id": "c667e9b9-e4fc-4d49-9c4b-9bc13657b754",
@@ -11730,11 +12033,6 @@
             "id": "fa4b5490-62ea-4b96-82ff-52be79a4969a",
             "outputSocketId": "ca5427c1-e0bc-46e7-9a94-6f31b0c57e7b638887474434233752",
             "inputSocketId": "00f06c91-9d33-45e9-8eb4-f397d924c9d9638889506161900129"
-        },
-        {
-            "id": "c4b4544f-d183-478a-9494-af26813425fa",
-            "outputSocketId": "8781b095-6116-48ef-bee7-2b4c33f10c4d638887443945523750",
-            "inputSocketId": "519055b2-2a67-4488-b9da-32a071370743638889020635718238"
         },
         {
             "id": "15fca343-e03f-4ddc-903f-3bd6487f33a0",
@@ -12082,21 +12380,6 @@
             "inputSocketId": "69cf7cbd-1c63-4a68-9b35-3d0a9c093961638887443945523750"
         },
         {
-            "id": "82f6ec67-c593-45d2-bf71-bc598e54bd0b",
-            "outputSocketId": "3fd7debe-bbb2-4c61-b137-721c08457017638887443945523750",
-            "inputSocketId": "312fee1e-7cd9-45b6-abd9-4f4488de61ef638887297152265864"
-        },
-        {
-            "id": "ae6cdf48-9d6a-4546-97b7-e54c3bbdce9c",
-            "outputSocketId": "a4b94160-32d8-452b-a7ca-592ae62199db638872380861666082",
-            "inputSocketId": "0a222dbe-ab46-408c-8e09-bb2d0e668514638890570869031856"
-        },
-        {
-            "id": "5616f1aa-a5f8-42b2-92c5-7d762fe7c5e9",
-            "outputSocketId": "d5b783e6-bf08-47cf-a87a-d6805cec6834638872386712651642",
-            "inputSocketId": "72bb78ac-40d2-409d-a394-2eeb5b8e3cc3638890571885225805"
-        },
-        {
             "id": "55387cfe-b451-41e5-bd5c-930263e71c2e",
             "outputSocketId": "6f79af73-33e6-472d-ad17-2b8c9f88f2ef638887474434233752",
             "inputSocketId": "cf40df9b-a1b3-4b7f-b41c-cda6125074f7638890573693086126"
@@ -12105,6 +12388,81 @@
             "id": "c2866af2-1fb1-4651-b9eb-1dd36caa1d03",
             "outputSocketId": "361ca0dd-4e44-4ab0-ab94-a1b1c541748c638889037182930362",
             "inputSocketId": "767b5280-2c7f-4e1c-958d-16da5c06ef6c638889037549856272"
+        },
+        {
+            "id": "53b77d2a-6dfd-4df1-b784-6ad2b10357e3",
+            "outputSocketId": "aa4021bd-e01a-4316-a230-75328765ae7a638889506161900129",
+            "inputSocketId": "f90b2b22-6077-40c1-b971-09dbdc746c42638891541062785328"
+        },
+        {
+            "id": "a9c0f6c1-e686-4b6f-846b-d0c9c2790ca5",
+            "outputSocketId": "aa4021bd-e01a-4316-a230-75328765ae7a638889506161900129",
+            "inputSocketId": "99776255-cd91-4c57-b790-dfeb37410bb5638891541132673282"
+        },
+        {
+            "id": "655a5d11-5e83-41c9-a9e2-20de924d0bed",
+            "outputSocketId": "f49bd77d-b432-4759-868a-302e96f2af38638891545642996334",
+            "inputSocketId": "4004e123-73d4-436c-b194-31675e005ca5638891545890150568"
+        },
+        {
+            "id": "f2379e51-712f-493d-8a27-1a26a32a1040",
+            "outputSocketId": "4297ebb5-8626-4c88-84a8-4c7146cdb7e9638891545737211745",
+            "inputSocketId": "35c69fc5-efbd-4244-8aa2-80e004072548638891546480767677"
+        },
+        {
+            "id": "f9cf854a-04c7-4469-ab3a-04acd428e538",
+            "outputSocketId": "4d722c03-5340-4a11-b23f-0b9cf04416a8638891546480767677",
+            "inputSocketId": "873da3a7-b260-474d-83a4-5db11d339310638891546581593733"
+        },
+        {
+            "id": "c68e2e9c-0354-4ce2-aa44-f811200de0ba",
+            "outputSocketId": "37f72850-ec42-4200-85ee-0d10f5ab0556638891546480767677",
+            "inputSocketId": "5f42428a-372f-43ac-8267-318369330f98638891545642996334"
+        },
+        {
+            "id": "661caa86-864d-436e-99c3-453a8cdfed1a",
+            "outputSocketId": "c9d109d8-3e08-49e6-8529-214a7ece217a638891545642996334",
+            "inputSocketId": "3c82cbca-adc4-4ce3-9b35-582bcd0f4026638891546068266736"
+        },
+        {
+            "id": "bbf4fd08-9b27-4a61-9713-df1e22463193",
+            "outputSocketId": "79e1d166-4f2f-4b17-b92d-9aaae11699a2638891546068266736",
+            "inputSocketId": "300cb721-a11d-4147-a00d-8b3ca71518ec638891546044364118"
+        },
+        {
+            "id": "0218a8f3-246a-4486-8682-d414ee9b9d68",
+            "outputSocketId": "3fd7debe-bbb2-4c61-b137-721c08457017638887443945523750",
+            "inputSocketId": "65bce6f4-1717-4451-b1a7-3a9f3d85334c638891545737211745"
+        },
+        {
+            "id": "8f833beb-9632-4578-9c59-dcaea482e50b",
+            "outputSocketId": "8781b095-6116-48ef-bee7-2b4c33f10c4d638887443945523750",
+            "inputSocketId": "312fee1e-7cd9-45b6-abd9-4f4488de61ef638887297152265864"
+        },
+        {
+            "id": "d2b8a492-4afd-48f2-8707-9b8e5c9d2287",
+            "outputSocketId": "438d8b04-b132-4371-86db-59d5def3cb6e638887490707289699",
+            "inputSocketId": "519055b2-2a67-4488-b9da-32a071370743638889020635718238"
+        },
+        {
+            "id": "d09b371a-1e6f-40e1-8156-a1caa81f8735",
+            "outputSocketId": "07192a89-bc29-4eac-9884-3789e55f812c638887490707289699",
+            "inputSocketId": "8fcffe83-8610-44c7-886f-24370a3b2331638889020245475868"
+        },
+        {
+            "id": "028ff473-1e3b-44d9-aca9-7ab0562cc223",
+            "outputSocketId": "ca1456cf-f211-459a-b6b9-6e567bd7b8d4638887490707289699",
+            "inputSocketId": "9c8329bf-bf76-4cfd-b1f9-460f903edb3e638889022627606698"
+        },
+        {
+            "id": "275e0751-ce51-42f4-a894-0c6062259505",
+            "outputSocketId": "3487d23e-6e13-4980-b49c-bdd163a1c7db638887490707289699",
+            "inputSocketId": "d4dfea5a-7316-4aeb-876b-57c0b9dcb4b5638889023128680230"
+        },
+        {
+            "id": "22b7847f-8890-46ad-8f9f-70af7876ba04",
+            "outputSocketId": "e93e184f-bb2f-4ff7-9a2f-cccd499fcde3638891547045868271",
+            "inputSocketId": "63c7d384-700b-47e6-ab97-8058da58ea8f638889023547410486"
         }
     ],
     "valueConnections": [
@@ -12939,9 +13297,14 @@
             "inputSocketId": "bebfcbff-5d5a-44a1-8cd2-bdc489b0972f638887315269505893"
         },
         {
-            "id": "53e21692-69a1-40c1-84b3-b92cf1396e1e",
-            "outputSocketId": "d775d422-a870-492c-8a8c-67d21511520c638887459739717021",
-            "inputSocketId": "38e2ec69-7eb8-4edc-a423-52ed14d5b78c638890571885225805"
+            "id": "883861c3-b5dc-41bd-9aa7-95192bee16a8",
+            "outputSocketId": "587d54f1-a50f-4813-820a-0433962d048f638891541318718205",
+            "inputSocketId": "a51efb0a-02d6-4c70-87a6-da4b39c338f0638891541062785328"
+        },
+        {
+            "id": "153811a0-8799-4638-95c2-7508c1fca4fc",
+            "outputSocketId": "3f1dba6d-a697-4aa7-892a-af0d45501747638891541339448475",
+            "inputSocketId": "d5618bbd-7b2d-41bb-b1dd-6cb7c3bf91a2638891541132673282"
         }
     ]
 }
