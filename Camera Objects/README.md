@@ -29,7 +29,7 @@ That's mainly it! Once you bring this into VNyan and it's visible, you should se
 
 If you want to control something like focal length you can set up an animation and control it with a parameter. Use the VNyan Anim Param Link to control it from within VNyan :3
 
-### Rendering Layers and Culling Mask
+### VNyan Rendering Layers
 By default the camera's Culling Mask setting will be `Everything`, but you can change this to choose which layers you want to be rendered in the camera. If you click the Layer dropdown near the top right of the Inspector tab, you will see all the named/setup layers, and `add layer` at the bottom to setup new layers. VNyan internally is already using many of these layers for rendering post-processing effects, droppables, props, etc. You can set up these layers in Unity here, then use the Culling Mask setting to choose which layers you want to be shown in the camera.
 
 I don't know what *all* of the rendering layers in VNyan are, but here are the ones that I know about that Suvi shared at some point:
