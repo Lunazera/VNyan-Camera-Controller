@@ -18,12 +18,11 @@ The right goup are the Main Settings, which are the custom object node, base spe
 The left node group has toggles and controls to manage the camera.
 
 ### Toggles
-- <b>ControlMode</b> (keyboard, gamepad, or nothing)
-- <b>ControlToggle</b> to quickly turn on and off controls
-- <b>ToggleCamera</b> to spawn camera & start controls at default location or destroy it.
-- Triggers to <b>ResetPosition, ResetRotation, and ResetCamera (all settings)
-</b>
-<b>SaveCameraTransform </b>trigger will save the XYZ position and rotation to the text parameter <CameraTransform>
+- <b>ControlMode</b> - 1 = keyboard, 2 = gamepad
+- <b>ControlToggle</b> - 1 = controls on, 2 = controls off
+- <b>ToggleCamera</b> - spawn camera object & start controls at default location or destroy it.
+- **ResetPosition**, **ResetRotation**, and **ResetCamera** (all settings)
+- **SaveCameraTransform **-  save the XYZ position and rotation to the text parameter `CameraTransform`
 
 ## Controls
 ### Keyboard
