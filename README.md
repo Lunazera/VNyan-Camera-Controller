@@ -12,6 +12,8 @@ The idea with this was partly to get position/rotation transforms for camera's t
 
 ![Example 2](examples/camcontrollerexample2.gif)
 
+Included under [Camera Objects](/Camera%20Objects) are a couple pre-made custom objects to use, one using VNyan's built-in camera component, and the other outputting to a separate Spout2 source. There is some info there too about how to create your own Camera's in VNyan.
+
 ## Settings
 The right goup are the Main Settings, which are the custom object node, base speed, acceleration and deacceleration. Make sure it's set to spawn VNyanCam.
 
