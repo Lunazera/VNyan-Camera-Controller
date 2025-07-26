@@ -1,4 +1,4 @@
-# LZ'z VNyan Camera Controller
+# LZ's VNyan Camera Controller
 
 Control a camera using keyboard hotkeys or a gamepad!
 
@@ -28,19 +28,19 @@ The left node group has toggles and controls to manage the camera.
 
 ## Controls
 ### Keyboard
-SHIFT + WASD = move forward/backward/left/right
-SHIFT + QE = rotate left/right
-SHIFT + RF = move up/down
-CTRL + WS = rotate up/down
-CTRL + RF = twist left/right
+- SHIFT + WASD = move forward/backward/left/right
+- SHIFT + QE = rotate left/right
+- SHIFT + RF = move up/down
+- CTRL + WS = rotate up/down
+- CTRL + RF = twist left/right
 
 ### Gamepad
-Left stick = move forward/backward/left/righ
-Right stick = rotate left/right, move up/down
-RB = Speed Up
-LB = Slow down
-LT/RT = rotate down/up
-DLeft = Reset all
-DUp = Reset position
-DDown = Reset Rotation
-X/Y = Twist
+- Left stick = move forward/backward/left/righ
+- Right stick = rotate left/right, move up/down
+- RB = Speed Up
+- LB = Slow down
+- LT/RT = rotate down/up
+- DLeft = Reset all
+- DUp = Reset position
+- DDown = Reset Rotation
+- X/Y = Twist
