@@ -3,6 +3,7 @@
 Control a camera using keyboard hotkeys or a gamepad!
 
 ![Example 1](examples/camcontrollerexample1.gif)
+
 *controller pose not included*
 
 To use this, trigger <b>SpawnCamera</b> and the camera should swap to the new view. Use your keyboard hotkey controls to move the camera around. If you want to use your gamepad, use the <b>ControlMode</b> toggle. There is also a Speed multipler parameter, CamMultiplier, you can use to speed up or slow down movement. On gamepad this is controlled with RB/LB. 
