@@ -1,4 +1,4 @@
-# LZ'z VNyan Camera Controller
+# LZ's VNyan Camera Controller
 
 Control a camera using keyboard hotkeys or a gamepad!
 
